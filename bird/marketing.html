@@ -1,0 +1,1042 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0759c7">
+  <meta name="description" content="Bird Dash: Rogue Sky is a one-thumb action roguelite with clutch Parry saves, dozens of build choices, and a Level Builder for sharing custom routes.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bird Dash: Rogue Sky">
+  <meta property="og:description" content="One-tap flight. Roguelite builds. Make your own levels.">
+  <meta property="og:url" content="https://ccaiassistant-coder.github.io/GameStaticRepo/bird/marketing.html">
+  <meta property="og:image" content="https://ccaiassistant-coder.github.io/GameStaticRepo/bird/marketing-assets/icon-1024.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Bird Dash: Rogue Sky — One-Tap Action Roguelite</title>
+  <link rel="icon" type="image/png" href="marketing-assets/icon-1024.png">
+  <style>
+    :root {
+      color-scheme: light;
+      --sky-top: #0755c8;
+      --sky: #149bea;
+      --sky-soft: #c8f2ff;
+      --ink: #08254d;
+      --muted: #496882;
+      --yellow: #ffd531;
+      --orange: #ff8a16;
+      --white: #fff;
+      --panel: rgba(255, 255, 255, .86);
+      --line: rgba(8, 37, 77, .12);
+      --shadow: 0 24px 70px rgba(3, 47, 113, .22);
+      --radius-xl: 34px;
+      --radius-lg: 24px;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      background: #effbff;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      background:
+        radial-gradient(circle at 82% 8%, rgba(255, 235, 109, .72) 0 3px, transparent 4px),
+        radial-gradient(circle at 77% 12%, rgba(255, 255, 255, .9) 0 2px, transparent 3px),
+        linear-gradient(180deg, var(--sky-top) 0, var(--sky) 31rem, #bfeeff 54rem, #f8fdff 78rem);
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 100;
+      top: 12px;
+      left: 12px;
+      transform: translateY(-150%);
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: #fff;
+      color: var(--ink);
+      font-weight: 800;
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    .shell {
+      width: min(var(--max), calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .site-header {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding-block: 22px;
+      color: #fff;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 900;
+      letter-spacing: -.03em;
+    }
+
+    .brand img {
+      width: 46px;
+      aspect-ratio: 1;
+      border-radius: 12px;
+      box-shadow: 0 8px 18px rgba(0, 30, 85, .28);
+    }
+
+    .site-nav {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      font-size: .95rem;
+      font-weight: 750;
+    }
+
+    .header-tools {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .language-select {
+      min-height: 40px;
+      padding: 0 34px 0 12px;
+      border: 1px solid rgba(255, 255, 255, .38);
+      border-radius: 12px;
+      background: rgba(4, 61, 153, .48);
+      color: #fff;
+      font: inherit;
+      font-size: .88rem;
+      font-weight: 800;
+      backdrop-filter: blur(12px);
+    }
+
+    .language-select option {
+      background: #fff;
+      color: var(--ink);
+    }
+
+    .site-nav a {
+      color: rgba(255, 255, 255, .92);
+      text-decoration: none;
+    }
+
+    .site-nav a:hover,
+    .site-nav a:focus-visible { color: var(--yellow); }
+
+    .hero {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(330px, .95fr);
+      align-items: center;
+      gap: clamp(42px, 7vw, 92px);
+      min-height: 680px;
+      padding-block: 52px 116px;
+      color: #fff;
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      background: rgba(255, 255, 255, .93);
+      filter: drop-shadow(0 14px 25px rgba(2, 67, 132, .1));
+    }
+
+    .hero::before {
+      width: 180px;
+      height: 54px;
+      left: -10vw;
+      bottom: 120px;
+      border-radius: 999px;
+      box-shadow: 50px -20px 0 4px rgba(255, 255, 255, .93), 102px 4px 0 8px rgba(255, 255, 255, .93);
+    }
+
+    .hero::after {
+      width: 150px;
+      height: 44px;
+      right: -7vw;
+      top: 130px;
+      border-radius: 999px;
+      box-shadow: 40px -18px 0 3px rgba(255, 255, 255, .93), 90px 2px 0 6px rgba(255, 255, 255, .93);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 18px;
+      padding: 8px 13px;
+      border: 1px solid rgba(255, 255, 255, .34);
+      border-radius: 999px;
+      background: rgba(4, 61, 153, .38);
+      color: #e6f9ff;
+      font-size: .82rem;
+      font-weight: 850;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      backdrop-filter: blur(12px);
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background: var(--yellow);
+      box-shadow: 0 0 14px var(--yellow);
+      transform: rotate(45deg);
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: clamp(3.2rem, 7vw, 6.4rem);
+      line-height: .93;
+      letter-spacing: -.07em;
+      text-shadow: 0 6px 0 rgba(0, 48, 122, .18);
+    }
+
+    h1 span {
+      display: block;
+      margin-top: 12px;
+      color: var(--yellow);
+      font-size: .62em;
+      letter-spacing: -.045em;
+    }
+
+    h1 .hero-title-main {
+      margin-top: 0;
+      color: inherit;
+      font-size: inherit;
+    }
+
+    html:lang(zh-Hans) h1 .hero-title-main,
+    html:lang(zh-Hant) h1 .hero-title-main,
+    html:lang(ja) h1 .hero-title-main,
+    html:lang(ko) h1 .hero-title-main {
+      font-size: .72em;
+      white-space: nowrap;
+    }
+
+    .hero-copy {
+      max-width: 650px;
+      margin: 28px 0 0;
+      color: rgba(255, 255, 255, .9);
+      font-size: clamp(1.05rem, 1.7vw, 1.28rem);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 54px;
+      padding: 0 22px;
+      border: 2px solid transparent;
+      border-radius: 15px;
+      text-decoration: none;
+      font-weight: 900;
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+    }
+
+    .button:hover { transform: translateY(-2px); }
+
+    .button-primary {
+      background: #101723;
+      color: #fff;
+      box-shadow: 0 10px 0 rgba(0, 32, 85, .24), 0 20px 34px rgba(0, 31, 89, .18);
+    }
+
+    .button-secondary {
+      border-color: rgba(255, 255, 255, .42);
+      background: rgba(255, 255, 255, .1);
+      color: #fff;
+      backdrop-filter: blur(10px);
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px 18px;
+      margin-top: 24px;
+      color: rgba(255, 255, 255, .72);
+      font-size: .9rem;
+      font-weight: 700;
+    }
+
+    .hero-art {
+      position: relative;
+      display: grid;
+      place-items: center;
+      min-height: 520px;
+    }
+
+    .hero-orbit {
+      position: absolute;
+      width: min(46vw, 520px);
+      aspect-ratio: 1;
+      border: 1px solid rgba(255, 255, 255, .22);
+      border-radius: 50%;
+      box-shadow: inset 0 0 70px rgba(132, 230, 255, .18), 0 0 90px rgba(102, 220, 255, .18);
+    }
+
+    .hero-icon {
+      position: relative;
+      z-index: 2;
+      width: min(29vw, 350px);
+      height: auto;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border: 8px solid rgba(255, 255, 255, .92);
+      border-radius: 27%;
+      box-shadow: 0 30px 72px rgba(0, 35, 100, .42);
+      transform: rotate(2deg);
+    }
+
+    .pixel {
+      position: absolute;
+      z-index: 3;
+      width: 16px;
+      height: 16px;
+      background: var(--yellow);
+      box-shadow: 16px 0 var(--yellow), 0 16px var(--yellow), 16px 16px #fff2a3;
+      transform: rotate(12deg);
+    }
+
+    .pixel-one { top: 7%; right: 12%; }
+    .pixel-two { bottom: 8%; left: 11%; transform: scale(.7) rotate(35deg); }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      padding-bottom: 100px;
+    }
+
+    .intro-card {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: clamp(32px, 6vw, 84px);
+      align-items: center;
+      margin-top: -56px;
+      padding: clamp(34px, 6vw, 72px);
+      border: 1px solid rgba(255, 255, 255, .7);
+      border-radius: var(--radius-xl);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(24px);
+    }
+
+    .section-kicker {
+      margin: 0 0 10px;
+      color: #0570d8;
+      font-size: .8rem;
+      font-weight: 950;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0;
+      color: var(--ink);
+      font-size: clamp(2.2rem, 4.5vw, 4.2rem);
+      line-height: 1.02;
+      letter-spacing: -.055em;
+    }
+
+    .lead {
+      margin: 20px 0 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .feature-list {
+      display: grid;
+      gap: 14px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .feature-list li {
+      position: relative;
+      padding: 18px 20px 18px 54px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255, 255, 255, .78);
+      font-weight: 820;
+    }
+
+    .feature-list li::before {
+      content: "";
+      position: absolute;
+      top: 22px;
+      left: 22px;
+      width: 14px;
+      height: 14px;
+      background: linear-gradient(135deg, var(--yellow), var(--orange));
+      box-shadow: 7px 0 rgba(255, 213, 49, .42), 0 7px rgba(255, 138, 22, .24);
+      transform: rotate(45deg);
+    }
+
+    .gallery-section {
+      padding-block: 110px 70px;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 32px;
+      margin-bottom: 36px;
+    }
+
+    .section-heading p {
+      max-width: 450px;
+      margin: 0 0 5px;
+      color: var(--muted);
+    }
+
+    .gallery-tools {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin: -12px 0 24px;
+    }
+
+    .device-switch {
+      display: inline-flex;
+      gap: 6px;
+      padding: 5px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, .78);
+    }
+
+    .device-switch button {
+      min-height: 38px;
+      padding: 0 16px;
+      border: 0;
+      border-radius: 10px;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      font-weight: 850;
+      cursor: pointer;
+    }
+
+    .device-switch button[aria-pressed="true"] {
+      background: #0759c7;
+      color: #fff;
+      box-shadow: 0 7px 16px rgba(7, 89, 199, .24);
+    }
+
+    .device-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: .92rem;
+      font-weight: 700;
+    }
+
+    .gallery {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: minmax(240px, 29%);
+      gap: 20px;
+      overflow-x: auto;
+      padding: 4px 4px 28px;
+      scroll-snap-type: x mandatory;
+      scrollbar-color: #2d95db #d9f2fb;
+    }
+
+    .shot {
+      overflow: hidden;
+      margin: 0;
+      border: 1px solid rgba(8, 37, 77, .13);
+      border-radius: var(--radius-lg);
+      background: #fff;
+      box-shadow: 0 16px 38px rgba(12, 74, 130, .14);
+      scroll-snap-align: start;
+    }
+
+    .shot img {
+      width: 100%;
+      height: auto;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding-block: 48px 110px;
+    }
+
+    .feature-card {
+      min-height: 260px;
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: #fff;
+      box-shadow: 0 15px 38px rgba(12, 74, 130, .09);
+    }
+
+    .feature-number {
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      margin-bottom: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--yellow), var(--orange));
+      color: #482900;
+      font-weight: 950;
+      box-shadow: 5px 5px 0 #d7edff;
+    }
+
+    .feature-card h3 {
+      margin: 0 0 10px;
+      font-size: 1.42rem;
+      letter-spacing: -.025em;
+    }
+
+    .feature-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .cta {
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 28px;
+      padding: clamp(28px, 5vw, 52px);
+      border-radius: var(--radius-xl);
+      background: linear-gradient(125deg, #0755c8, #0fb3eb);
+      color: #fff;
+      box-shadow: var(--shadow);
+    }
+
+    .cta::after {
+      content: "";
+      position: absolute;
+      top: -90px;
+      right: -40px;
+      width: 250px;
+      height: 250px;
+      border: 34px solid rgba(255, 255, 255, .1);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .cta > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .cta img {
+      width: 92px;
+      border: 4px solid rgba(255, 255, 255, .85);
+      border-radius: 24px;
+      box-shadow: 0 18px 34px rgba(0, 44, 100, .28);
+    }
+
+    .cta h2 {
+      color: #fff;
+      font-size: clamp(1.9rem, 4vw, 3.3rem);
+    }
+
+    .cta p {
+      margin: 8px 0 0;
+      color: rgba(255, 255, 255, .82);
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding-block: 42px;
+      color: var(--muted);
+      font-size: .92rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .footer a { text-underline-offset: 4px; }
+
+    :focus-visible {
+      outline: 3px solid var(--yellow);
+      outline-offset: 4px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; }
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding-top: 58px;
+        text-align: center;
+      }
+
+      .hero-copy { margin-inline: auto; }
+      .hero-actions, .meta { justify-content: center; }
+      .hero-art { min-height: 410px; }
+      .hero-orbit { width: min(78vw, 460px); }
+      .hero-icon { width: min(58vw, 320px); }
+      .intro-card { grid-template-columns: 1fr; }
+      .feature-grid { grid-template-columns: 1fr; }
+      .feature-card { min-height: 0; }
+      .feature-number { margin-bottom: 24px; }
+      .gallery { grid-auto-columns: minmax(250px, 48%); }
+      .cta { grid-template-columns: auto 1fr; }
+      .cta .button { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 640px) {
+      .shell { width: min(100% - 24px, var(--max)); }
+      .site-header { padding-block: 14px; }
+      .site-nav { display: none; }
+      .header-tools { margin-left: auto; }
+      .brand span { font-size: .9rem; }
+      .hero { padding-block: 48px 100px; }
+      h1 { font-size: clamp(3rem, 17vw, 4.6rem); }
+      html:lang(zh-Hans) h1 .hero-title-main,
+      html:lang(zh-Hant) h1 .hero-title-main,
+      html:lang(ja) h1 .hero-title-main,
+      html:lang(ko) h1 .hero-title-main { font-size: .64em; }
+      .hero-art { min-height: 340px; }
+      .hero-icon { border-width: 5px; }
+      .intro-card { padding: 30px 22px; }
+      .section-heading { display: block; }
+      .section-heading p { margin-top: 16px; }
+      .gallery-tools { align-items: flex-start; flex-direction: column; }
+      .gallery-section { padding-top: 82px; }
+      .gallery { grid-auto-columns: 84%; }
+      .feature-grid { padding-bottom: 82px; }
+      .cta { grid-template-columns: 1fr; text-align: center; }
+      .cta img { margin-inline: auto; }
+      .footer { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Bird Dash: Rogue Sky",
+      "operatingSystem": "iOS 15.0 or later",
+      "applicationCategory": "GameApplication",
+      "contentRating": "12+",
+      "description": "A portrait, one-thumb action roguelite with Parry timing, build choices, and a Level Builder.",
+      "downloadUrl": "https://apps.apple.com/us/app/bird-dash-rogue-sky/id6765617436",
+      "image": "https://ccaiassistant-coder.github.io/GameStaticRepo/bird/marketing-assets/icon-1024.png"
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="site-header shell">
+    <a class="brand" href="#top" aria-label="Bird Dash: Rogue Sky home">
+      <img src="marketing-assets/icon-1024.png" alt="" width="46" height="46">
+      <span>Bird Dash: Rogue Sky</span>
+    </a>
+    <div class="header-tools">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#features" data-i18n="nav_features">Features</a>
+        <a href="#screenshots" data-i18n="nav_screenshots">Screenshots</a>
+        <a class="nav-store" href="https://apps.apple.com/us/app/bird-dash-rogue-sky/id6765617436" rel="noopener" data-i18n="nav_store">App Store ↗</a>
+      </nav>
+      <label>
+        <span class="skip-link" data-i18n="language_label">Language</span>
+        <select class="language-select" id="language-select" aria-label="Language">
+          <option value="zh-Hans">简体中文</option>
+          <option value="zh-Hant">繁體中文</option>
+          <option value="en-US">English</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="de">Deutsch</option>
+          <option value="fr">Français</option>
+        </select>
+      </label>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="top">
+      <div>
+        <p class="eyebrow" data-i18n="eyebrow">One-thumb action roguelite</p>
+        <h1><span class="hero-title-main" data-i18n="hero_title_main">Tap. Build.</span><span data-i18n="hero_title_accent">Rule the sky.</span></h1>
+        <p class="hero-copy" data-i18n="hero_copy">Classic one-tap flight, rebuilt with clutch Parry saves, dozens of roguelite abilities, and a Level Builder for making routes worth sharing.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://apps.apple.com/us/app/bird-dash-rogue-sky/id6765617436" rel="noopener" data-i18n="view_store">View on the App Store ↗</a>
+          <a class="button button-secondary" href="#screenshots" data-i18n="see_game">See the game</a>
+        </div>
+        <div class="meta" aria-label="App details">
+          <span>12+</span>
+          <span data-i18n="meta_devices">iPhone &amp; iPad</span>
+          <span>iOS 15+</span>
+          <span data-i18n="meta_genre">Action · Casual</span>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Bird Dash: Rogue Sky app icon">
+        <span class="hero-orbit" aria-hidden="true"></span>
+        <span class="pixel pixel-one" aria-hidden="true"></span>
+        <span class="pixel pixel-two" aria-hidden="true"></span>
+        <img class="hero-icon" src="marketing-assets/icon-1024.png" alt="A pixel-art yellow bird soaring through a bright blue sky" width="1024" height="1024" data-i18n-alt="icon_alt">
+      </div>
+    </section>
+
+    <div class="content">
+      <section class="intro-card shell" id="features">
+        <div>
+          <p class="section-kicker" data-i18n="intro_kicker">Familiar in one tap. Different every run.</p>
+          <h2 data-i18n="intro_title">A tiny input with a sky full of choices.</h2>
+          <p class="lead" data-i18n="intro_lead">Tap to rise and let gravity pull you down. The rhythm feels immediate; the routes, hazards, and builds keep changing around it.</p>
+        </div>
+        <ul class="feature-list">
+          <li data-i18n="bullet_parry">Parry a lethal collision with one perfectly timed second tap.</li>
+          <li data-i18n="bullet_draft">Draft from dozens of abilities after every stage.</li>
+          <li data-i18n="bullet_builder">Build, test, and share your own obstacle routes.</li>
+        </ul>
+      </section>
+
+      <section class="gallery-section shell" id="screenshots" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker" data-i18n="gallery_kicker">Real App Store screenshots</p>
+            <h2 id="gallery-title" data-i18n="gallery_title">Every run tells a new sky story.</h2>
+          </div>
+          <p data-i18n="gallery_desc">Swipe through flight, Parry timing, ability builds, special effects, and the Level Builder.</p>
+        </div>
+
+        <div class="gallery-tools">
+          <div class="device-switch" role="group" aria-label="Screenshot device">
+            <button type="button" data-device="6.7-iphone" aria-pressed="true">iPhone</button>
+            <button type="button" data-device="ipad-13" aria-pressed="false">iPad</button>
+          </div>
+          <p class="device-note" id="device-note" data-i18n="device_note_phone">Showing screenshots recorded and produced from a physical iPhone.</p>
+        </div>
+
+        <div class="gallery" aria-label="Bird Dash gameplay screenshots">
+          <figure class="shot"><img data-scene="home" data-i18n-alt="alt_home" src="marketing-assets/screenshots/6.7-iphone/en-US/home.png" alt="Bird Dash main menu" width="1284" height="2778"></figure>
+          <figure class="shot"><img data-scene="gameplay" data-i18n-alt="alt_gameplay" src="marketing-assets/screenshots/6.7-iphone/en-US/gameplay.png" alt="Bird Dash gameplay" width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="draft" data-i18n-alt="alt_draft" src="marketing-assets/screenshots/6.7-iphone/en-US/draft.png" alt="Choose one of three abilities" width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="yanfan" data-i18n-alt="alt_yanfan" src="marketing-assets/screenshots/6.7-iphone/en-US/yanfan.png" alt="Parry Dash through an obstacle" width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="shockwave" data-i18n-alt="alt_shockwave" src="marketing-assets/screenshots/6.7-iphone/en-US/shockwave.png" alt="Shockwave clears hazards" width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="builder" data-i18n-alt="alt_builder" src="marketing-assets/screenshots/6.7-iphone/en-US/builder.png" alt="Level Builder" width="1284" height="2778" loading="lazy"></figure>
+        </div>
+      </section>
+
+      <section class="feature-grid shell" aria-label="Game features">
+        <article class="feature-card">
+          <span class="feature-number">01</span>
+          <h3 data-i18n="feature1_title">Clutch Parry saves</h3>
+          <p data-i18n="feature1_body">Read the distance, time the second tap, and turn a near-death collision into a clean passage.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">02</span>
+          <h3 data-i18n="feature2_title">Build every run</h3>
+          <p data-i18n="feature2_body">Magnet, Shield, Time Slow, Swift Step, Dawn Iris, and more reshape your route and recovery plan.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">03</span>
+          <h3 data-i18n="feature3_title">Create the challenge</h3>
+          <p data-i18n="feature3_body">Drag obstacles, tune mechanisms, test instantly, then share a challenge code with friends.</p>
+        </article>
+      </section>
+
+      <section class="cta shell" aria-labelledby="cta-title">
+        <img src="marketing-assets/icon-1024.png" alt="" width="92" height="92" loading="lazy">
+        <div>
+          <h2 id="cta-title" data-i18n="cta_title">This sky is worth another run.</h2>
+          <p data-i18n="cta_body">Portrait. One thumb. A different plan from the very first tap.</p>
+        </div>
+        <a class="button button-primary" href="https://apps.apple.com/us/app/bird-dash-rogue-sky/id6765617436" rel="noopener" data-i18n="open_store">Open App Store ↗</a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer shell">
+    <span>© 2026 Bird Dash: Rogue Sky</span>
+    <nav class="footer-links" aria-label="Legal and support">
+      <a href="https://ccaiassistant-coder.github.io/GameStaticRepo/bird/en.html" data-i18n="privacy">Privacy Policy</a>
+      <a href="https://ccaiassistant-coder.github.io/GameStaticRepo/bird/support.html" data-i18n="support">Support</a>
+      <a href="mailto:ccaiassistant@gmail.com" data-i18n="contact">Contact</a>
+    </nav>
+  </footer>
+  <script>
+    const translations = {
+      "en-US": {
+        title: "Bird Dash: Rogue Sky — One-Tap Action Roguelite",
+        description: "A one-thumb action roguelite with clutch Parry saves, dozens of build choices, and a Level Builder.",
+        skip: "Skip to content", language_label: "Language", nav_features: "Features", nav_screenshots: "Screenshots", nav_store: "App Store ↗",
+        eyebrow: "One-thumb action roguelite", hero_title_main: "Tap. Build.", hero_title_accent: "Rule the sky.",
+        hero_copy: "Classic one-tap flight, rebuilt with clutch Parry saves, dozens of roguelite abilities, and a Level Builder for making routes worth sharing.",
+        view_store: "View on the App Store ↗", see_game: "See the game", meta_devices: "iPhone & iPad", meta_genre: "Action · Casual",
+        icon_alt: "A pixel-art yellow bird soaring through a bright blue sky",
+        intro_kicker: "Familiar in one tap. Different every run.", intro_title: "A tiny input with a sky full of choices.",
+        intro_lead: "Tap to rise and let gravity pull you down. The rhythm feels immediate; the routes, hazards, and builds keep changing around it.",
+        bullet_parry: "Parry a lethal collision with one perfectly timed second tap.", bullet_draft: "Draft from dozens of abilities after every stage.", bullet_builder: "Build, test, and share your own obstacle routes.",
+        gallery_kicker: "Real App Store screenshots", gallery_title: "Every run tells a new sky story.", gallery_desc: "Swipe through flight, Parry timing, ability builds, special effects, and the Level Builder.",
+        device_note_phone: "Showing screenshots recorded and produced from a physical iPhone.", device_note_tablet: "Showing screenshots recorded and produced from a physical iPad.",
+        alt_home: "Bird Dash main menu", alt_gameplay: "Bird Dash gameplay", alt_draft: "Choose one of three abilities", alt_yanfan: "Parry Dash through an obstacle", alt_shockwave: "Shockwave clears hazards", alt_builder: "Level Builder",
+        feature1_title: "Clutch Parry saves", feature1_body: "Read the distance, time the second tap, and turn a near-death collision into a clean passage.",
+        feature2_title: "Build every run", feature2_body: "Magnet, Shield, Time Slow, Swift Step, Dawn Iris, and more reshape your route and recovery plan.",
+        feature3_title: "Create the challenge", feature3_body: "Drag obstacles, tune mechanisms, test instantly, then share a challenge code with friends.",
+        cta_title: "This sky is worth another run.", cta_body: "Portrait. One thumb. A different plan from the very first tap.", open_store: "Open App Store ↗",
+        privacy: "Privacy Policy", support: "Support", contact: "Contact"
+      },
+      "zh-Hans": {
+        title: "Bird Dash: Rogue Sky — 单指动作 Roguelite", description: "单指飞行、极限招架、数十种构筑选择，以及可以分享路线的关卡建造器。",
+        skip: "跳到主要内容", language_label: "语言", nav_features: "玩法", nav_screenshots: "游戏截图", nav_store: "App Store ↗",
+        eyebrow: "单指动作 Roguelite", hero_title_main: "点击。构筑。", hero_title_accent: "制霸天空。",
+        hero_copy: "经典单击飞行加入极限招架、数十种 Roguelite 能力，以及能制作并分享路线的关卡建造器。",
+        view_store: "前往 App Store ↗", see_game: "查看游戏", meta_devices: "iPhone 与 iPad", meta_genre: "动作 · 休闲",
+        icon_alt: "像素风黄色小鸟飞过明亮蓝天",
+        intro_kicker: "一指即会，每局不同。", intro_title: "一个简单输入，满天策略选择。",
+        intro_lead: "点击上升，松手下落。操作节奏直观，但路线、障碍和构筑会不断变化。",
+        bullet_parry: "在致命碰撞前精准二次点击，完成招架。", bullet_draft: "每个阶段后从数十种能力中三选一。", bullet_builder: "制作、测试并分享自己的障碍路线。",
+        gallery_kicker: "真实 App Store 截图", gallery_title: "每一局，都有新的天空故事。", gallery_desc: "浏览飞行、招架时机、能力构筑、特殊效果与关卡建造器。",
+        device_note_phone: "当前展示由 iPhone 真机独立录制并制作的截图。", device_note_tablet: "当前展示由 iPad 真机独立录制并制作的截图。",
+        alt_home: "Bird Dash 主菜单", alt_gameplay: "Bird Dash 飞行玩法", alt_draft: "三选一能力构筑", alt_yanfan: "燕返穿越障碍", alt_shockwave: "震荡波清除障碍", alt_builder: "关卡建造器",
+        feature1_title: "极限招架救场", feature1_body: "判断距离，抓准二次点击时机，把致命碰撞化为安全穿越。",
+        feature2_title: "每局重新构筑", feature2_body: "磁力、护盾、时缓、疾步、曙光之瞳等能力持续改变路线与生存策略。",
+        feature3_title: "亲手制作挑战", feature3_body: "拖放障碍、调整机制、即时测试，再把挑战码分享给好友。",
+        cta_title: "这片天空，值得再飞一局。", cta_body: "竖屏。单指。从第一次点击开始制定不同计划。", open_store: "打开 App Store ↗",
+        privacy: "隐私政策", support: "支持", contact: "联系我们"
+      },
+      "zh-Hant": {
+        title: "Bird Dash: Rogue Sky — 單指動作 Roguelite", description: "單指飛行、極限招架、數十種構築選擇，以及可以分享路線的關卡建造器。",
+        skip: "跳到主要內容", language_label: "語言", nav_features: "玩法", nav_screenshots: "遊戲截圖", nav_store: "App Store ↗",
+        eyebrow: "單指動作 Roguelite", hero_title_main: "點擊。構築。", hero_title_accent: "制霸天空。",
+        hero_copy: "經典單擊飛行加入極限招架、數十種 Roguelite 能力，以及能製作並分享路線的關卡建造器。",
+        view_store: "前往 App Store ↗", see_game: "查看遊戲", meta_devices: "iPhone 與 iPad", meta_genre: "動作 · 休閒",
+        icon_alt: "像素風黃色小鳥飛過明亮藍天",
+        intro_kicker: "一指即會，每局不同。", intro_title: "一個簡單輸入，滿天策略選擇。",
+        intro_lead: "點擊上升，鬆手下落。操作節奏直觀，但路線、障礙和構築會不斷變化。",
+        bullet_parry: "在致命碰撞前精準二次點擊，完成招架。", bullet_draft: "每個階段後從數十種能力中三選一。", bullet_builder: "製作、測試並分享自己的障礙路線。",
+        gallery_kicker: "真實 App Store 截圖", gallery_title: "每一局，都有新的天空故事。", gallery_desc: "瀏覽飛行、招架時機、能力構築、特殊效果與關卡建造器。",
+        device_note_phone: "目前展示由 iPhone 真機獨立錄製並製作的截圖。", device_note_tablet: "目前展示由 iPad 真機獨立錄製並製作的截圖。",
+        alt_home: "Bird Dash 主選單", alt_gameplay: "Bird Dash 飛行玩法", alt_draft: "三選一能力構築", alt_yanfan: "燕返穿越障礙", alt_shockwave: "震盪波清除障礙", alt_builder: "關卡建造器",
+        feature1_title: "極限招架救場", feature1_body: "判斷距離，抓準二次點擊時機，把致命碰撞化為安全穿越。",
+        feature2_title: "每局重新構築", feature2_body: "磁力、護盾、時緩、疾步、曙光之瞳等能力持續改變路線與生存策略。",
+        feature3_title: "親手製作挑戰", feature3_body: "拖放障礙、調整機制、即時測試，再把挑戰碼分享給好友。",
+        cta_title: "這片天空，值得再飛一局。", cta_body: "直向。單指。從第一次點擊開始制定不同計畫。", open_store: "打開 App Store ↗",
+        privacy: "隱私權政策", support: "支援", contact: "聯絡我們"
+      },
+      "ja": {
+        title: "Bird Dash: Rogue Sky — ワンタップ・アクションローグライト", description: "ワンタップ飛行、決死のパリィ、多彩なビルド、共有できるレベルビルダー。",
+        skip: "メインコンテンツへ", language_label: "言語", nav_features: "特徴", nav_screenshots: "スクリーンショット", nav_store: "App Store ↗",
+        eyebrow: "ワンタップ・アクションローグライト", hero_title_main: "タップ。ビルド。", hero_title_accent: "空を制覇。",
+        hero_copy: "定番のワンタップ飛行に、逆転のパリィ、多彩なローグライト能力、ルートを作って共有できるレベルビルダーを融合。",
+        view_store: "App Storeで見る ↗", see_game: "ゲームを見る", meta_devices: "iPhone・iPad", meta_genre: "アクション · カジュアル",
+        icon_alt: "明るい青空を飛ぶピクセルアートの黄色い鳥",
+        intro_kicker: "操作は一瞬。展開は毎回変化。", intro_title: "小さな入力に、空いっぱいの選択肢。",
+        intro_lead: "タップで上昇し、重力で下降。リズムは直感的でも、ルート、障害物、ビルドは毎回変わります。",
+        bullet_parry: "完璧な2回目のタップで致命的な衝突をパリィ。", bullet_draft: "各ステージ後に多数の能力から3択。", bullet_builder: "自分だけの障害物ルートを作成、テスト、共有。",
+        gallery_kicker: "実際のApp Storeスクリーンショット", gallery_title: "飛ぶたび、新しい空の物語。", gallery_desc: "飛行、パリィ、能力ビルド、特殊効果、レベルビルダーをご覧ください。",
+        device_note_phone: "iPhone実機で個別に収録・制作した画像を表示しています。", device_note_tablet: "iPad実機で個別に収録・制作した画像を表示しています。",
+        alt_home: "Bird Dash メインメニュー", alt_gameplay: "Bird Dash の飛行ゲームプレイ", alt_draft: "3つの能力から選択", alt_yanfan: "パリィダッシュで障害物を突破", alt_shockwave: "衝撃波で障害物を一掃", alt_builder: "レベルビルダー",
+        feature1_title: "逆転のパリィ", feature1_body: "距離を読み、2回目のタップを合わせ、死寸前の衝突を鮮やかな突破に変えよう。",
+        feature2_title: "毎回ビルド", feature2_body: "マグネット、シールド、スロー、迅速、暁の瞳などがルートと生存プランを変化させます。",
+        feature3_title: "挑戦を作る", feature3_body: "障害物を配置し、仕掛けを調整し、すぐテスト。挑戦コードを友達に共有できます。",
+        cta_title: "この空は、もう一度飛ぶ価値がある。", cta_body: "縦画面。片手操作。最初のタップから違う作戦を。", open_store: "App Storeを開く ↗",
+        privacy: "プライバシーポリシー", support: "サポート", contact: "お問い合わせ"
+      },
+      "ko": {
+        title: "Bird Dash: Rogue Sky — 원터치 액션 로그라이트", description: "한 손가락 비행, 위기의 패리, 다양한 빌드와 공유 가능한 레벨 빌더.",
+        skip: "본문으로 이동", language_label: "언어", nav_features: "특징", nav_screenshots: "스크린샷", nav_store: "App Store ↗",
+        eyebrow: "원터치 액션 로그라이트", hero_title_main: "탭. 빌드.", hero_title_accent: "하늘을 지배하라.",
+        hero_copy: "클래식 원터치 비행에 위기의 패리, 수십 가지 로그라이트 능력, 공유할 수 있는 레벨 빌더를 더했습니다.",
+        view_store: "App Store에서 보기 ↗", see_game: "게임 보기", meta_devices: "iPhone 및 iPad", meta_genre: "액션 · 캐주얼",
+        icon_alt: "밝은 파란 하늘을 나는 픽셀 아트 노란 새",
+        intro_kicker: "한 번에 익히고, 매번 새롭게.", intro_title: "작은 입력 하나, 하늘 가득한 선택.",
+        intro_lead: "탭하면 상승하고 중력으로 내려옵니다. 조작은 직관적이지만 경로, 장애물, 빌드는 계속 달라집니다.",
+        bullet_parry: "정확한 두 번째 탭으로 치명적인 충돌을 패리하세요.", bullet_draft: "매 스테이지 후 수십 가지 능력 중 하나를 선택하세요.", bullet_builder: "나만의 장애물 경로를 만들고 테스트하고 공유하세요.",
+        gallery_kicker: "실제 App Store 스크린샷", gallery_title: "매 비행마다 새로운 하늘 이야기.", gallery_desc: "비행, 패리 타이밍, 능력 빌드, 특수 효과와 레벨 빌더를 확인하세요.",
+        device_note_phone: "iPhone 실기기에서 별도로 녹화·제작한 이미지를 표시합니다.", device_note_tablet: "iPad 실기기에서 별도로 녹화·제작한 이미지를 표시합니다.",
+        alt_home: "Bird Dash 메인 메뉴", alt_gameplay: "Bird Dash 비행 플레이", alt_draft: "세 가지 능력 중 선택", alt_yanfan: "패리 대시로 장애물 돌파", alt_shockwave: "충격파로 장애물 제거", alt_builder: "레벨 빌더",
+        feature1_title: "위기의 패리", feature1_body: "거리를 읽고 두 번째 탭의 타이밍을 맞춰 치명적인 충돌을 깔끔한 통과로 바꾸세요.",
+        feature2_title: "매번 새로운 빌드", feature2_body: "자석, 방패, 시간 감속, 질주, 새벽의 눈동자 등이 경로와 생존 계획을 바꿉니다.",
+        feature3_title: "도전을 직접 제작", feature3_body: "장애물을 배치하고 기믹을 조정한 뒤 즉시 테스트하고 친구에게 도전 코드를 공유하세요.",
+        cta_title: "이 하늘은 한 번 더 날 가치가 있습니다.", cta_body: "세로 화면. 한 손가락. 첫 탭부터 다른 전략.", open_store: "App Store 열기 ↗",
+        privacy: "개인정보 처리방침", support: "지원", contact: "문의"
+      },
+      "de": {
+        title: "Bird Dash: Rogue Sky — Einfinger-Action-Roguelite", description: "Ein-Tipp-Flug, rettende Paraden, zahlreiche Builds und ein Level-Editor zum Teilen eigener Strecken.",
+        skip: "Zum Inhalt springen", language_label: "Sprache", nav_features: "Features", nav_screenshots: "Screenshots", nav_store: "App Store ↗",
+        eyebrow: "Einfinger-Action-Roguelite", hero_title_main: "Tippen. Bauen.", hero_title_accent: "Den Himmel beherrschen.",
+        hero_copy: "Klassischer Ein-Tipp-Flug mit rettenden Paraden, Dutzenden Roguelite-Fähigkeiten und einem Level-Editor für teilbare Strecken.",
+        view_store: "Im App Store ansehen ↗", see_game: "Spiel ansehen", meta_devices: "iPhone & iPad", meta_genre: "Action · Gelegenheitsspiel",
+        icon_alt: "Ein gelber Pixelvogel fliegt durch einen hellblauen Himmel",
+        intro_kicker: "Sofort vertraut. Jeder Lauf anders.", intro_title: "Eine kleine Eingabe, ein Himmel voller Entscheidungen.",
+        intro_lead: "Tippe zum Steigen, die Schwerkraft zieht dich hinab. Der Rhythmus ist direkt, doch Strecken, Gefahren und Builds ändern sich ständig.",
+        bullet_parry: "Pariere eine tödliche Kollision mit einem perfekt getimten zweiten Tipp.", bullet_draft: "Wähle nach jeder Etappe aus Dutzenden Fähigkeiten.", bullet_builder: "Baue, teste und teile deine eigenen Hindernisstrecken.",
+        gallery_kicker: "Echte App-Store-Screenshots", gallery_title: "Jeder Lauf erzählt eine neue Himmelsgeschichte.", gallery_desc: "Entdecke Flug, Parade-Timing, Fähigkeiten, Spezialeffekte und den Level-Editor.",
+        device_note_phone: "Gezeigt werden separat auf einem echten iPhone aufgenommene und produzierte Bilder.", device_note_tablet: "Gezeigt werden separat auf einem echten iPad aufgenommene und produzierte Bilder.",
+        alt_home: "Bird Dash Hauptmenü", alt_gameplay: "Bird Dash Flugspiel", alt_draft: "Eine von drei Fähigkeiten wählen", alt_yanfan: "Parade-Sprint durch ein Hindernis", alt_shockwave: "Schockwelle räumt Gefahren", alt_builder: "Level-Editor",
+        feature1_title: "Rettende Paraden", feature1_body: "Lies die Distanz, time den zweiten Tipp und verwandle eine tödliche Kollision in eine saubere Passage.",
+        feature2_title: "Jeden Lauf neu bauen", feature2_body: "Magnet, Schild, Zeitlupe, Schnellschritt, Morgeniris und mehr verändern Route und Rettungsplan.",
+        feature3_title: "Die Herausforderung bauen", feature3_body: "Ziehe Hindernisse, justiere Mechaniken, teste sofort und teile einen Herausforderungscode mit Freunden.",
+        cta_title: "Dieser Himmel ist einen weiteren Lauf wert.", cta_body: "Hochformat. Ein Finger. Ein anderer Plan ab dem ersten Tipp.", open_store: "App Store öffnen ↗",
+        privacy: "Datenschutz", support: "Support", contact: "Kontakt"
+      },
+      "fr": {
+        title: "Bird Dash: Rogue Sky — Roguelite d’action à un doigt", description: "Vol en un geste, parades décisives, nombreux builds et éditeur de niveaux à partager.",
+        skip: "Aller au contenu", language_label: "Langue", nav_features: "Fonctionnalités", nav_screenshots: "Captures", nav_store: "App Store ↗",
+        eyebrow: "Roguelite d’action à un doigt", hero_title_main: "Touchez. Construisez.", hero_title_accent: "Dominez le ciel.",
+        hero_copy: "Le vol classique en un geste, enrichi de parades décisives, de dizaines de capacités roguelite et d’un éditeur de niveaux partageables.",
+        view_store: "Voir sur l’App Store ↗", see_game: "Voir le jeu", meta_devices: "iPhone et iPad", meta_genre: "Action · Casual",
+        icon_alt: "Un oiseau jaune en pixel art vole dans un ciel bleu lumineux",
+        intro_kicker: "Familier en un geste. Différent à chaque partie.", intro_title: "Un geste minuscule, un ciel plein de choix.",
+        intro_lead: "Touchez pour monter, puis laissez la gravité agir. Le rythme est immédiat, mais parcours, dangers et builds changent sans cesse.",
+        bullet_parry: "Parez une collision fatale grâce à un second toucher parfaitement synchronisé.", bullet_draft: "Choisissez parmi des dizaines de capacités après chaque étape.", bullet_builder: "Créez, testez et partagez vos propres parcours d’obstacles.",
+        gallery_kicker: "Vraies captures App Store", gallery_title: "Chaque partie raconte une nouvelle histoire.", gallery_desc: "Découvrez le vol, le timing des parades, les builds, les effets spéciaux et l’éditeur de niveaux.",
+        device_note_phone: "Images enregistrées et produites séparément sur un iPhone physique.", device_note_tablet: "Images enregistrées et produites séparément sur un iPad physique.",
+        alt_home: "Menu principal de Bird Dash", alt_gameplay: "Vol dans Bird Dash", alt_draft: "Choix entre trois capacités", alt_yanfan: "Ruée-parade à travers un obstacle", alt_shockwave: "Onde de choc éliminant les dangers", alt_builder: "Éditeur de niveaux",
+        feature1_title: "Parades décisives", feature1_body: "Lisez la distance, synchronisez le second toucher et transformez une collision fatale en passage net.",
+        feature2_title: "Un build à chaque partie", feature2_body: "Aimant, Bouclier, Ralenti, Pas vif, Iris de l’aube et bien d’autres modifient votre route et votre survie.",
+        feature3_title: "Créez le défi", feature3_body: "Déplacez les obstacles, réglez les mécanismes, testez immédiatement, puis partagez un code avec vos amis.",
+        cta_title: "Ce ciel mérite une partie de plus.", cta_body: "Portrait. Un doigt. Un plan différent dès le premier toucher.", open_store: "Ouvrir l’App Store ↗",
+        privacy: "Confidentialité", support: "Assistance", contact: "Contact"
+      }
+    };
+
+    const supportedLocales = Object.keys(translations);
+    const languageSelect = document.getElementById("language-select");
+    const deviceButtons = [...document.querySelectorAll("[data-device]")];
+    let currentLocale = "en-US";
+    let currentDevice = "6.7-iphone";
+
+    function preferredLocale() {
+      const requested = new URLSearchParams(location.search).get("lang");
+      if (supportedLocales.includes(requested)) return requested;
+      try {
+        const stored = localStorage.getItem("bird-dash-language");
+        if (supportedLocales.includes(stored)) return stored;
+      } catch (_) {}
+      for (const raw of navigator.languages || [navigator.language]) {
+        const value = String(raw || "").toLowerCase();
+        if (value.startsWith("zh-tw") || value.startsWith("zh-hk") || value.startsWith("zh-mo")) return "zh-Hant";
+        if (value.startsWith("zh")) return "zh-Hans";
+        if (value.startsWith("ja")) return "ja";
+        if (value.startsWith("ko")) return "ko";
+        if (value.startsWith("de")) return "de";
+        if (value.startsWith("fr")) return "fr";
+      }
+      return "en-US";
+    }
+
+    function preferredDevice() {
+      const requested = new URLSearchParams(location.search).get("device");
+      if (["6.7-iphone", "ipad-13"].includes(requested)) return requested;
+      try {
+        const stored = localStorage.getItem("bird-dash-device");
+        if (["6.7-iphone", "ipad-13"].includes(stored)) return stored;
+      } catch (_) {}
+      return "6.7-iphone";
+    }
+
+    function rememberQuery() {
+      try {
+        const url = new URL(location.href);
+        url.searchParams.set("lang", currentLocale);
+        url.searchParams.set("device", currentDevice);
+        history.replaceState(null, "", url);
+      } catch (_) {}
+    }
+
+    function applyGallery() {
+      const isTablet = currentDevice === "ipad-13";
+      document.querySelectorAll("[data-scene]").forEach((image) => {
+        image.src = `marketing-assets/screenshots/${currentDevice}/${currentLocale}/${image.dataset.scene}.png`;
+        image.width = isTablet ? 2064 : 1284;
+        image.height = isTablet ? 2752 : 2778;
+      });
+      deviceButtons.forEach((button) => {
+        button.setAttribute("aria-pressed", String(button.dataset.device === currentDevice));
+      });
+      const key = isTablet ? "device_note_tablet" : "device_note_phone";
+      const note = document.getElementById("device-note");
+      note.dataset.i18n = key;
+      note.textContent = translations[currentLocale][key];
+    }
+
+    function applyLocale(locale) {
+      currentLocale = supportedLocales.includes(locale) ? locale : "en-US";
+      const copy = translations[currentLocale];
+      document.documentElement.lang = currentLocale;
+      document.title = copy.title;
+      document.querySelector('meta[name="description"]').setAttribute("content", copy.description);
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        const value = copy[node.dataset.i18n];
+        if (value) node.textContent = value;
+      });
+      document.querySelectorAll("[data-i18n-alt]").forEach((node) => {
+        const value = copy[node.dataset.i18nAlt];
+        if (value) node.alt = value;
+      });
+      languageSelect.value = currentLocale;
+      applyGallery();
+    }
+
+    languageSelect.addEventListener("change", () => {
+      applyLocale(languageSelect.value);
+      try { localStorage.setItem("bird-dash-language", currentLocale); } catch (_) {}
+      rememberQuery();
+    });
+
+    deviceButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        currentDevice = button.dataset.device;
+        try { localStorage.setItem("bird-dash-device", currentDevice); } catch (_) {}
+        applyGallery();
+        rememberQuery();
+      });
+    });
+
+    currentDevice = preferredDevice();
+    applyLocale(preferredLocale());
+  </script>
+</body>
+</html>
