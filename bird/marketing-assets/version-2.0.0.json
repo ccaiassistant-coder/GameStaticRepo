@@ -1,0 +1,1530 @@
+{
+  "version": "2.0.0",
+  "sources": [
+    {
+      "path": "marketing-assets/icon-1024.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_9022dea57736",
+      "sha256": "b088035125ce55b71bdace703a0ce7e7eecdd990f068e6889be2249617d835c8",
+      "device": null,
+      "locale": "all"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/en-US/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_c792cc910309",
+      "sha256": "de9bdeec8ef3e14745c33b5f098c233563aa0edf4cb1cdbd67c393d5f98f096f",
+      "device": "iphone-6.9",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/en-US/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_c205c21e9516",
+      "sha256": "6e96c29f10411fca934f955b842db11c2ffc231396c29d43c4a053c208ea4506",
+      "device": "iphone-6.9",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/en-US/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_307281013131",
+      "sha256": "7a3b9c7fbff93c3be0fc087e3b974b8ff108877e0b39aabfe8e19062262e22db",
+      "device": "iphone-6.9",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/en-US/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_862395ae831c",
+      "sha256": "3ceed7580e71a19cbb33a1be651799af49c46efcc2f94e52e9ac17e22544cd23",
+      "device": "iphone-6.9",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/en-US/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_de1b129fbeb6",
+      "sha256": "47b8a9a7930ec8ccedfaf5a3f1f9df034d8aa89e1260a73a901eb600b328a0c1",
+      "device": "iphone-6.9",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/en-US/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_08c8651234c9",
+      "sha256": "701257257d9292d5b6b426b69334a0474e300c82cad9e373a7914f71fad461d8",
+      "device": "iphone-6.9",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/en-US/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_6a27b4a7d7f1",
+      "sha256": "6f2f0e19bf4f4cec7df162d998370bfa75dccc41534abbc4c5737f647fd8ade6",
+      "device": "iphone-6.9",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/en-US/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_8ca7184603cd",
+      "sha256": "dd2080e3a24f77dd4987912594e2f584b5da401f1ea612027dbd938755b3bff9",
+      "device": "iphone-6.9",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hans/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_610d29c013aa",
+      "sha256": "02bbdb86f6ee5f5b67536c3b637f30ca381ed99847e868a4e9eff9cb5f91a11a",
+      "device": "iphone-6.9",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hans/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_dc8d03022e09",
+      "sha256": "983a0cd790fa31cf5ac8bbfd6a7c5a03a06e77632afa4a28a0f12f1f0efbc9a7",
+      "device": "iphone-6.9",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hans/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_e63cdcf5433a",
+      "sha256": "04c89faf1a15a5a215c61d484be00abf12a3f01542ba436a75d5062dcc05b596",
+      "device": "iphone-6.9",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hans/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_71810894d969",
+      "sha256": "54d1c2c1d2b7b8db8e346f65b6aa1576384123b359ccac7b209f760dd9078e90",
+      "device": "iphone-6.9",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hans/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_f6d8d1e755c8",
+      "sha256": "f53896271ed323522781053c8d36a3128a515ae0bbf0d2e52b5d551c01b264c8",
+      "device": "iphone-6.9",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hans/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_5d8d4523657e",
+      "sha256": "e3ebf5bd5e3607fb2b441a25893540a82f63dce74dec955d861c3b7eb7be85c5",
+      "device": "iphone-6.9",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hans/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_f41d36c68e9d",
+      "sha256": "914bc7162c406d013173f5ea940b9c78a1dba2da4100287f16dda167872b638e",
+      "device": "iphone-6.9",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hans/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_61c7269d7517",
+      "sha256": "32509383a9d563cedcbbeeb5f1f4c27228be8ed94c1365d68a8ed2fadcbb86d0",
+      "device": "iphone-6.9",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ja/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_ad02fdac6e24",
+      "sha256": "cb70b4f200974368cf37b89736ede0bf303c3eb024e6f1611ece840446a0f977",
+      "device": "iphone-6.9",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ja/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_68d5663b907b",
+      "sha256": "9e493e268f0f36fc4cd565921147689a197bddcb25e280acb04c5dc26e9310b2",
+      "device": "iphone-6.9",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ja/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_e790b02d71e8",
+      "sha256": "8d13c148f0ac6ffe5a9364b92bc44d54542bc5e2a9d9020045fc2eb5bbcb902c",
+      "device": "iphone-6.9",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ja/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_46a5154d06e3",
+      "sha256": "9b7b5c04d145b582f2c0d7e9fe3f9f75ddd970d0c39abf9ef4977855d29e4075",
+      "device": "iphone-6.9",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ja/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_91f623209274",
+      "sha256": "247057091a115a47b14835bbf752f2ff1ec8b9229fa3be89711e5b78bc5ed2e8",
+      "device": "iphone-6.9",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ja/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_e56f227fb457",
+      "sha256": "860f481909ae620c323da7a437cec68da44a0142360819e8f69bd1406840b6f0",
+      "device": "iphone-6.9",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ja/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_f796841d5ce1",
+      "sha256": "53f74ad2206a29ad5df9f04456bb9cd989c0c5a1fc81196c0215a3b3442ea6a6",
+      "device": "iphone-6.9",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ja/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_ed9de4478a4f",
+      "sha256": "41a8b77cf8870e31a957bf2466256203e9ace8116e91acb063e2e8959f4d86a9",
+      "device": "iphone-6.9",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ko/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_76785dbdba22",
+      "sha256": "acad232efb945c23b6a09eb3db3418a0c0e9adb607c44230898c8b7d2cda6f00",
+      "device": "iphone-6.9",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ko/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_04985f1e139a",
+      "sha256": "c82aa006c40b173319805a44957320ab743674b854404a17b23576106ade2700",
+      "device": "iphone-6.9",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ko/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_6a33be204ad8",
+      "sha256": "4e1b27f7574350c322ff9557f0b8f14881097aaa73eec6ffe80b22dd4beaca61",
+      "device": "iphone-6.9",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ko/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_d5edacac69d7",
+      "sha256": "9d0dfd4d3af239c0cdd13eccfa642dc2514806c4fbb8d6ea30f49374d9fdbaaa",
+      "device": "iphone-6.9",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ko/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_4ebc504a3d48",
+      "sha256": "1eb2bdb16f512e1d18624527b1f782511412303dafddc5e3389c37c68644c902",
+      "device": "iphone-6.9",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ko/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_e7aadaf413ec",
+      "sha256": "063da8711869ccfe1d5df701f4758476307f87972159633484ffed27b1fc472a",
+      "device": "iphone-6.9",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ko/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_2ded252f28db",
+      "sha256": "076da027cf8a69c2db7af182b1d5aed5e25cc0ddf6d834508755f7f03a6a66de",
+      "device": "iphone-6.9",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/ko/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_cddd0628c79c",
+      "sha256": "2d4726e860ee00a92ae110e10dba4cf7f9d68c7432ff8b7da2eee6019323065f",
+      "device": "iphone-6.9",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/de/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_8ba241c940be",
+      "sha256": "d288d0947f412a195369828fda672dd35d56a126b0c9d64b5a78b4ce1a5f55cd",
+      "device": "iphone-6.9",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/de/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_1c4c1cf067b5",
+      "sha256": "391bf3d8ed2c42edbcff22e7633986674291df126eab767792ddc86066331282",
+      "device": "iphone-6.9",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/de/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_55f8d2996b8d",
+      "sha256": "cdb3c49087cb61b9730f025bc7cecdc5e4b22a2fd8002f7b8515b9ead79051ab",
+      "device": "iphone-6.9",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/de/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_562544f9e861",
+      "sha256": "157c100482d9c4ba8c196a0bbc4e3537e24d72b9f31a1291c71aa19b6cd12d80",
+      "device": "iphone-6.9",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/de/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_ce628e2b6264",
+      "sha256": "bce80a26664a9405fd5f4dc6c02132af5ef84b84eeaf4e1c163751dfb0c476d9",
+      "device": "iphone-6.9",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/de/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_49d83071b4f7",
+      "sha256": "f0e0171e2f87d150573c00d9437ce494bd68f1ba26a7a70a9ea0a929fbfca7e1",
+      "device": "iphone-6.9",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/de/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_cb1d4fcc05e8",
+      "sha256": "266632c6a6fe78a2525408fe4675b0357805db39cbcef00afe1080681a59b34f",
+      "device": "iphone-6.9",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/de/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_d73f789406fd",
+      "sha256": "42ffcd295488bf02b8e3ea9ed1e910846438aabe9296da7da7ba5cab5dc66344",
+      "device": "iphone-6.9",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/fr/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_3aecb06ce5d3",
+      "sha256": "332ed0faf3648097df0935c581164b3d442091860dd7fbda0b852fa15ec335c7",
+      "device": "iphone-6.9",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/fr/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_0b35f848282a",
+      "sha256": "4951154e924a8632c7d86794bbcc9a8c963a1f1d55c1c7b789903831b8bf1d1c",
+      "device": "iphone-6.9",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/fr/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_89f3c2fe3ba3",
+      "sha256": "c4d16f665284bbcd39294ebfcef74104926880f319a97a5288d392da05464d1e",
+      "device": "iphone-6.9",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/fr/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_1a7e60164c48",
+      "sha256": "f2753164181039b9bfa8e796aaedc4c44941339d6fd8dc37c5f02b46595bb046",
+      "device": "iphone-6.9",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/fr/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_5e1ef65638fd",
+      "sha256": "bfd8a46541736d8c5505910e2b0f5a722c1edbbc51caf8291d96775dff9432eb",
+      "device": "iphone-6.9",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/fr/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_1d1c94163fec",
+      "sha256": "c647cc42341548d023f5b822111531b6d1b4dd1f70c301097cb68a4b2abe7062",
+      "device": "iphone-6.9",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/fr/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_58689db4a3a5",
+      "sha256": "8afa3fb0e7135f307e3698b31a7139231ba12e51c3699de3f656a689d0a59ae1",
+      "device": "iphone-6.9",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/fr/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_9d52955a5dbd",
+      "sha256": "5f70a249691e9483736c46e550c9350cddf75a016cf6ee85dc55ddfe1c992c4d",
+      "device": "iphone-6.9",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hant/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_d1785d0c68f9",
+      "sha256": "0d188afc6a8578d65a82992cdb69f92f16607e5681c653d5a4a2ba27f1587fe0",
+      "device": "iphone-6.9",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hant/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_0cd133bad56d",
+      "sha256": "0eaaa706551bcae3a000fbe28634470bcfe6450de9fd8f02c824f8bafb1d902d",
+      "device": "iphone-6.9",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hant/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_fdb409c8e729",
+      "sha256": "e131c227befd926e19839970739fe54b20d724a128b741c0ccfb785767d0fbe5",
+      "device": "iphone-6.9",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hant/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_a06d5ce3fcfd",
+      "sha256": "d00e7087598fb5f4484dbd5ed68a179df7003d6ed499dc382e3347cae0232f8d",
+      "device": "iphone-6.9",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hant/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_23c7d335ec7b",
+      "sha256": "24972a2731c52bda329ad915cd26f9aba1a8021d3a9b4c2783327219f0335e87",
+      "device": "iphone-6.9",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hant/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_5ada59b13f25",
+      "sha256": "089c60474f152fb6fad246c0d33a24d59c7c4cb4e7ef1426d07413a9c8793690",
+      "device": "iphone-6.9",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hant/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_1b6634215ff9",
+      "sha256": "28b9216957553a51db47def3b28492bb99e0816e19ed30aa04a0b253c142f737",
+      "device": "iphone-6.9",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/6.7-iphone/zh-Hant/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_b77142f39179",
+      "sha256": "fa64daf7fb02352b52e70578d26822c9c3404043d0db7818ab5ba13a642b2324",
+      "device": "iphone-6.9",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/en-US/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_b8cf6334445d",
+      "sha256": "812958c1c26d7948162966533d22b475a8b9465b7df90a90108b4553254e9630",
+      "device": "ipad-13",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/en-US/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_b4f0c425219a",
+      "sha256": "315c8de747eaeb761147e355a0c75d695a28bf6bc59d157ec79e9df91d8a7c9c",
+      "device": "ipad-13",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/en-US/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_c918e42ea653",
+      "sha256": "ba0b5558fdf7b5a8b6e6cb39fb9d0360201010b144d941cbb3c0da237e0f7a48",
+      "device": "ipad-13",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/en-US/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_d776afc3911e",
+      "sha256": "5aac6527e88daefb149f9e5fbdb6f15c61cb11906669abfd32be30e8dcb6d6fc",
+      "device": "ipad-13",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/en-US/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_04e689a990a4",
+      "sha256": "d14aee7f3ae390d4be5705c1daf857935566e36176d2aabf7b106bde28633990",
+      "device": "ipad-13",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/en-US/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_1cd9e76a6f19",
+      "sha256": "29e0e122674bef718edb9e5b27cb6a9197e094b59bb89c8eee113b3e3b58ab95",
+      "device": "ipad-13",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/en-US/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_9e18decbd622",
+      "sha256": "99bc6246b06c0fbd24b55db2428f1b01f152a9fc289b3f019de790fa36d1bc9e",
+      "device": "ipad-13",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/en-US/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_7636293c84e7",
+      "sha256": "0813c467c9b6c42ad43467d76c8cd621938a3a65d44538e9160f48d20fedfb64",
+      "device": "ipad-13",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hans/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_ba2c518afbb0",
+      "sha256": "3e1924e60d26f2b92bbf3f8e059c8a98ac83486a58e73ebeec71b92a19a04874",
+      "device": "ipad-13",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hans/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_036c5673fa48",
+      "sha256": "3101d21f4531806986b3686ce229cabeb9b63c99109270993a200fc939a1b1c2",
+      "device": "ipad-13",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hans/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_e2f099e28a85",
+      "sha256": "30a2ef5f910a8af70e425fa4a0ac7e1389ba65db5ae5bb5ab59090e6b11b2b3c",
+      "device": "ipad-13",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hans/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_8956e6937c63",
+      "sha256": "92a94ee5266525007f2c90a86285bfb658203788c9b73092a559ceb086071e46",
+      "device": "ipad-13",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hans/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_304fd4165872",
+      "sha256": "6f8efb11de3166dd5e6c33f9c749899ffbf43b496c417cfbabeaca4909581ee0",
+      "device": "ipad-13",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hans/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_975ec38c8283",
+      "sha256": "ca08da9a871af81c5409820d51a0cd298fef8ba5b7404bb247b6e7217be6fa2b",
+      "device": "ipad-13",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hans/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_e1681467cc41",
+      "sha256": "81958b6d5d23d4f9f881fd1d44507cea89cdfb7dd409f3898361a381b27d8a38",
+      "device": "ipad-13",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hans/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_5ce02f34d165",
+      "sha256": "e900e089b0b0ffdf189d68472a3cdc0e3b567371ab746ed6e1f15b0f526b3335",
+      "device": "ipad-13",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ja/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_f5a5ae0ae677",
+      "sha256": "2dc0f624b085c0c0bb2c95dc3dc46990908ab7af8c53ae44b4f0209c0bacea31",
+      "device": "ipad-13",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ja/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_05a32ef189f9",
+      "sha256": "392b334f349605a36541232f805d5ba5177bcd00bb980d6d9aa9ba995bc30a23",
+      "device": "ipad-13",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ja/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_44801064c169",
+      "sha256": "4c5d2f9d8f848075c49cc9eee3964cae938bf54f1c26eb8f3d03c5cd7edfb808",
+      "device": "ipad-13",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ja/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_179eed0fd331",
+      "sha256": "a3809bbca3a99f32da1a72a40977998ba94bd214326a3354a03532bc017bfa3a",
+      "device": "ipad-13",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ja/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_c70074d91e12",
+      "sha256": "6b024b7b61e1a030106de95b0c9afb1f7f687c8fcb82d0cbee217d9c09c8c38c",
+      "device": "ipad-13",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ja/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_0c39a4abff83",
+      "sha256": "ec309d615e61dbce2416781580857a737d4ddc93cbb3346fa463e03508a506dc",
+      "device": "ipad-13",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ja/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_3a818b1e1f98",
+      "sha256": "4013467d38f4342174dff6110ab7f33a363a20bd667c5e5f5328813c0bdeb777",
+      "device": "ipad-13",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ja/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_6cf40dc97b24",
+      "sha256": "616463616687428146f80d58bfef5453b371cd3ab8ecfa5e51b33e818c7026f5",
+      "device": "ipad-13",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ko/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_99871d295170",
+      "sha256": "a008616d03445162971ad3820bcde269ee67e3394bd83eedc6e50c86dd21c98e",
+      "device": "ipad-13",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ko/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_b773886ab315",
+      "sha256": "dcc0de3fe1eb644461690a6787ba3a9ae8d73294ddb701e7b0a121883dd7bf44",
+      "device": "ipad-13",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ko/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_3849430fb696",
+      "sha256": "a7ad9d17265d1a8530489c8c414102e3ffb0345cb0dc05dfe8bed4f795c66028",
+      "device": "ipad-13",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ko/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_afe9687116e0",
+      "sha256": "8549cfebdf309d78641b0be869a5ed09e96d7a3d90220c32d871478d9f1602be",
+      "device": "ipad-13",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ko/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_85d34644a139",
+      "sha256": "ad1e8fc88fdf3902bd1fb46a06004e88228c6146286208c11c4a37402301818c",
+      "device": "ipad-13",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ko/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_c8d5ecdfb881",
+      "sha256": "21ff9b86aadf0bd5410e5860d42475341bdb1a157b6efd82286e2ee877cc1486",
+      "device": "ipad-13",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ko/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_f0ed642a9157",
+      "sha256": "6ba0441e47c66fc487a2e6a3c9be11fe91af932662624a487f191883d3d48051",
+      "device": "ipad-13",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/ko/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_7d5a107de9e6",
+      "sha256": "a2b8a53c2e775e518fffce205cda734eb648204fe11dbcbf42b2c708aa95c912",
+      "device": "ipad-13",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/de/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_bb008e25f375",
+      "sha256": "5397f1771700fb6f5ab8ca392f286820285fe64ca0fee128395b1d57b790cbf3",
+      "device": "ipad-13",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/de/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_aabd83bd7edf",
+      "sha256": "8cb3df1991ad886bff39da7fd0e71195e13173b345dfaeb1816bdd0d34af75c2",
+      "device": "ipad-13",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/de/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_918d06fd67c9",
+      "sha256": "7a335e4fc96ada0fe722ab80db766c3d1ae1f78bcc82dcc98978a149783eea99",
+      "device": "ipad-13",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/de/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_cc98069db9e4",
+      "sha256": "7e2e96d184cfa3925a8753ced9b3cf06c0fadf1b0fb29dc5e42651b48b0be3ff",
+      "device": "ipad-13",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/de/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_a1e61b3bfa44",
+      "sha256": "69b9eca9de92029f91ed155766ee0a86255bcdc1013ff4c0ca34d65eb3c6a77b",
+      "device": "ipad-13",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/de/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_61cfb7597897",
+      "sha256": "8e091f6772e71677720a14686c925d0e5b90a0e8b5dd4fb779905733e738d597",
+      "device": "ipad-13",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/de/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_c59a79a696fc",
+      "sha256": "b70c2cfb5b3a466775307ba0d8aa5cc4aef1d13574e3c12faac090c4fc1668e3",
+      "device": "ipad-13",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/de/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_7193b00c4e0d",
+      "sha256": "2e3f62c3d4c7733d4182387b035bb909c9256651df6055be3681588d1a04728f",
+      "device": "ipad-13",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/fr/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_0f4738d0c2a9",
+      "sha256": "5454cff5b5b3069e5517f2d2b63926f3b60796d06a41679d86b2f146bcad66e6",
+      "device": "ipad-13",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/fr/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_ec8a38a77475",
+      "sha256": "b830409b5403e5f3d702d2fe9788e0b8b4f29ac6ebbc1fbf8f8d6b202d0af831",
+      "device": "ipad-13",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/fr/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_8bd164029ce4",
+      "sha256": "6e9c368f697e119400d0107ecd33e718cdb2734a0c8fb8b2d90f4904b26bef8f",
+      "device": "ipad-13",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/fr/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_c5296cb9ce30",
+      "sha256": "118d73e1fb1cefd183b825b945ceb9d6f9e84bb1b0bf7a1e3f47d74ef4906c54",
+      "device": "ipad-13",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/fr/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_5890d0739ba9",
+      "sha256": "22dac546290b9d548cb1fdfd34798eeb264cb39fb8d47dedca5eec23683f0f7a",
+      "device": "ipad-13",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/fr/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_26fd1cd0c280",
+      "sha256": "514c15359a794c7af219f216258b698797e5b69b4bf4c11cfbd46e4d04f73f64",
+      "device": "ipad-13",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/fr/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_55d7df865939",
+      "sha256": "60a5d22e3d44cef5fe4ddbdf8c6b8c08cded415a0788b8b79b94f26656884f26",
+      "device": "ipad-13",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/fr/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_9258a7c54b53",
+      "sha256": "803039a838ec7fb1784059f55569bb6b2b222eaa0623748af75b583ff06f5575",
+      "device": "ipad-13",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hant/gameplay.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_1f78d86bfde3",
+      "sha256": "6973ea404c95819a0232708d40466ed3fad6b1955ac4fa1e0e6d646ca2e4ea96",
+      "device": "ipad-13",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hant/draft.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_7aab9db92475",
+      "sha256": "465b477985a85ee1a5109629cb439537d207889918cfc83743c9847efbf3734e",
+      "device": "ipad-13",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hant/shockwave.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_1a522ead84d8",
+      "sha256": "03a4fe195a5b26d73cf0a0e13839d1166849983a630ec6ec060bdf59f0f62191",
+      "device": "ipad-13",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hant/yanfan.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_5d4d30a1d225",
+      "sha256": "5e912ab5bec650326dca6e9c30b57edf35cdf321f17d40f23019d4fe9ab2ae49",
+      "device": "ipad-13",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hant/score-ranking.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_f6d8f7445552",
+      "sha256": "0c5a23fc89cda3fa6a001a8a8e55cc71f1eea02011d45f5628d783b6355d51c8",
+      "device": "ipad-13",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hant/loadout.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_8a020f40e2d2",
+      "sha256": "42a9058fb2bb43fe374779b789b344f158f611ebcd002f510e3a9bc5baf9daef",
+      "device": "ipad-13",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hant/builder.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_f00d8b7ce574",
+      "sha256": "0a070a9a8e14b06451453766e509b82ce20aed1693306f59b5b26ae9861a3290",
+      "device": "ipad-13",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/ipad-13/zh-Hant/story.png",
+      "release_id": 6,
+      "revision": 6,
+      "artifact_id": "asset_162cdb5413fd",
+      "sha256": "62a96ecc254f2c23de9ec7f1c3f836728fcabaa50808b3b7c30b977ac8661689",
+      "device": "ipad-13",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hans/gameplay.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_4675e0cfc274",
+      "sha256": "998d7b56e82e8f445434f9322ba6dda2be7850150a187651045076a3310f8323",
+      "device": "phone-9x16",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hans/draft.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_5624dd1e7bd3",
+      "sha256": "699426c84cdb8fca4e743b10e1295ba314b4f1f39904f166d962fa064fe695ec",
+      "device": "phone-9x16",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hans/shockwave.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_b3e591568823",
+      "sha256": "8683520ecc36747f3b1cc9d743c765309bec4df72e57ba1b37f4d91a4b75ccf5",
+      "device": "phone-9x16",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hans/yanfan.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_47f8a0b3cdb74078b6bf97172c7c86f5",
+      "sha256": "fc816dfde78e98c1223f7e871042f670553d9871fb52d31234e157a49b01f490",
+      "device": "phone-9x16",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hans/score-ranking.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_721e57dd4ae9",
+      "sha256": "138301c751cb379e67ff18cd5543810cdf65010d286b6770f2fbd240c7a27038",
+      "device": "phone-9x16",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hans/loadout.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_a50a77251d49",
+      "sha256": "c359402c3ed91036d1331b06f7c712e9dcee608dd9cd243f9dcd560c88df470c",
+      "device": "phone-9x16",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hans/builder.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_633454b84e25",
+      "sha256": "3f9b831a08bcd21bb2c08343c4d40210b202c777208b59b03d3f0f75973fdf84",
+      "device": "phone-9x16",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hans/story.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_b53a450512f5",
+      "sha256": "56b25f6a130636f0b759ac40eadec1e6437554a0eb2502db726b83f025466e99",
+      "device": "phone-9x16",
+      "locale": "zh-Hans"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/en-US/gameplay.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_15333f817e29",
+      "sha256": "e623db9dad3e61b723a8eec409fd477a67dc2492ced7324f6b6ee64fdd2c8816",
+      "device": "phone-9x16",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/en-US/draft.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_50ea509a8f7a",
+      "sha256": "7511aeee4c7603d6527fc9e2e0c71fbe643c7a6cc5e6fcbdc202301de92adbd4",
+      "device": "phone-9x16",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/en-US/shockwave.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_a0f6fa255778",
+      "sha256": "46b64ec002c31b3d9731c281a19e9a1ad59c80f1028ac4b3c4af4a3412a560ff",
+      "device": "phone-9x16",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/en-US/yanfan.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_ed4f199203e54889902c67b56f877072",
+      "sha256": "3891fa6d32b9134256de8b173162aa15db35caf9d188f19ef21e60514a69ba5e",
+      "device": "phone-9x16",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/en-US/score-ranking.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_a16c9e21eb66",
+      "sha256": "08ff48101b224523f5611973dfbe10b1bfd558416490046b79cb4db5fff2b7c2",
+      "device": "phone-9x16",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/en-US/loadout.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_dd890320b500",
+      "sha256": "d761c82eca092bbc928f7281c585bfbe567011550069d3d2d32d1286f560f00f",
+      "device": "phone-9x16",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/en-US/builder.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_e808c40525bc",
+      "sha256": "28475f93bfafbcb470af5f85b6c01806ab6eec78de3202e02eefe8c70b8c8c4f",
+      "device": "phone-9x16",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/en-US/story.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_4509ba68e2c2",
+      "sha256": "5d9fa6b1e2f7f0f6087368b5e98849dc9cc48758897a731842f90b3e31ad5521",
+      "device": "phone-9x16",
+      "locale": "en-US"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ja/gameplay.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_5d3fd98a607e",
+      "sha256": "933f8398f8e70fefc1cc7aca7b6d44742336f7062defd54bff57163cc6f6fe6f",
+      "device": "phone-9x16",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ja/draft.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_ce482741404c",
+      "sha256": "033a1f6948b32895e7dfd80647c99bbbf8c0bd6a27a3fedae508caed1b03de66",
+      "device": "phone-9x16",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ja/shockwave.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_118a7dcd3fce",
+      "sha256": "8b2fb91ba42b6be7c8c1192e78760cbb12d232de0569a6e61f9388b1dc707df0",
+      "device": "phone-9x16",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ja/yanfan.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_3fc9e5268ada41f18b94fdbd10de515c",
+      "sha256": "4862533bc806e13cea011173c9d9408fc4f1bc75408c36b5058f330b353adaf1",
+      "device": "phone-9x16",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ja/score-ranking.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_5f99df1e7f25",
+      "sha256": "7549ec7d7ae2310ab74e07b89b2d84d4ba89623ee19994139b1d496d903e8bb4",
+      "device": "phone-9x16",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ja/loadout.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_0da297b58146",
+      "sha256": "7b75d7fc885de2cbecf3050aaec64465385f1438f2656d3a03289268a4d9ad33",
+      "device": "phone-9x16",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ja/builder.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_21383c26f37a",
+      "sha256": "147baf4a95b4b98da5338f9221056fe18ca6a43d78da0925b0dbc786efc9ad5f",
+      "device": "phone-9x16",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ja/story.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_2ebac551baae",
+      "sha256": "3790a5d7b4c64e64f1af6dfd6eba1928d58b5c6fba0c5714d3ca4d7148c14a00",
+      "device": "phone-9x16",
+      "locale": "ja"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ko/gameplay.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_61d0e4b26823",
+      "sha256": "a8dabe01549b377f8ff45bacc72c1e1bf30de4be07e4b0b91394833cb9ed4bcf",
+      "device": "phone-9x16",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ko/draft.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_8c24baed0e85",
+      "sha256": "b42f73af90838a45aa86e3c45337be2e718ff523a3ce6e51ffe9ac8c2f49ea01",
+      "device": "phone-9x16",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ko/shockwave.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_08fd84529e76",
+      "sha256": "0b110496242471d3c75a458872d647d257da6ad6ee8be10a8e6b435932a25a53",
+      "device": "phone-9x16",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ko/yanfan.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_fb58012859994a3c9b82d18d6828ee3f",
+      "sha256": "b29c2aeb5511cb56d207823f113b63db361f496f2ed36bed2015c31ccd55be53",
+      "device": "phone-9x16",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ko/score-ranking.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_68ad2363c4c6",
+      "sha256": "87f20f0d00f780b578caa3b8de189481926a427fa4a72d9a99ebd41a175b6e47",
+      "device": "phone-9x16",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ko/loadout.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_5b5cbd571339",
+      "sha256": "348035aa36528a2249f7f61ae5f8fa4c4ce28c64f05b55a8cf7f95b7777c18fb",
+      "device": "phone-9x16",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ko/builder.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_7e73b8d4cd2a",
+      "sha256": "b48e6b85062f97f3a6dc92c9ebdf79685c51f085e435f0bf00d217ccf4a37d29",
+      "device": "phone-9x16",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/ko/story.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_5d266a8e15f4",
+      "sha256": "7c8e62b8223ffe9d4a4898a4037e844a6667ee8e59991c41133704a5cab4bbb0",
+      "device": "phone-9x16",
+      "locale": "ko"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/de/gameplay.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_4df3e3772d24",
+      "sha256": "3dca59379f1a8e77764fbad9014ae2d5aa8aca3a7ce9af6e5ededace0ec63878",
+      "device": "phone-9x16",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/de/draft.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_8819d3debb38",
+      "sha256": "9facd61b03c9ba374c1c0c23c38cdc3688e7e48243e0c71a03f59891f8fc6064",
+      "device": "phone-9x16",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/de/shockwave.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_e47057cb9020",
+      "sha256": "a83b08f3ba3471ab8ad4935d5318b912c1f52416288fa7398bdc0c87deb65e9c",
+      "device": "phone-9x16",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/de/yanfan.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_431a9babd0fe4a40ad3bcf4faaef7a84",
+      "sha256": "171c1a156033404a18567f6317dfd0b9233eddce056371108aa2a11a084b2ac6",
+      "device": "phone-9x16",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/de/score-ranking.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_42253f8f1b72",
+      "sha256": "828c75d1bee8c8dfc067e0c9779d418227a433054eaa73ced7abcfca3361f15a",
+      "device": "phone-9x16",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/de/loadout.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_767e90533680",
+      "sha256": "e286cf8f44ffda07994d9b2292f7f754e9594034491bf8f6395c49cab641466c",
+      "device": "phone-9x16",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/de/builder.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_f17c09800068",
+      "sha256": "2ae518447762839a10768c8d94a7553516247e3ed86ac307e58ec5005935d57f",
+      "device": "phone-9x16",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/de/story.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_2d3f35e7376b",
+      "sha256": "e6644124e59f4a332de0c25e4941600ac7bca03ae66f7c2c84d362ae4074f4a8",
+      "device": "phone-9x16",
+      "locale": "de"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/fr/gameplay.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_f90c959cf29a",
+      "sha256": "fc5e5efbfb2d2610c694902310109c86a3722864b0d7083e78f31797f2812782",
+      "device": "phone-9x16",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/fr/draft.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_c036d3538776",
+      "sha256": "11fdd562e03c75e1261c93f7ab6ddd06313c44ca112a3e4ade1c31f206edde3c",
+      "device": "phone-9x16",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/fr/shockwave.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_a02b13c5678b",
+      "sha256": "aae15d98b2c1d83cdb16d704d0f1c752da5112d6a342c243ff455b8cafa20cc4",
+      "device": "phone-9x16",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/fr/yanfan.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_b8877db3ce734d45880828bdf4c15511",
+      "sha256": "a5e8528d2b774e518a22f1e548825a6e725d413db35a4013180cb04b9d8cf536",
+      "device": "phone-9x16",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/fr/score-ranking.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_c9003d3e77d2",
+      "sha256": "1a7f749a2992432fb99ba349f7af06d8e93169897a7985ff58ef0f72794d2aeb",
+      "device": "phone-9x16",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/fr/loadout.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_ebb387624452",
+      "sha256": "e758b083c5acac243a6e3f618caa24c5ccbe7d8d65c393b07bbfc99c372b9db0",
+      "device": "phone-9x16",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/fr/builder.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_3cb3062d6a92",
+      "sha256": "b44a15a03a55749f04d72a39c1127e4f88da5e16a15d92ea74e2965bfd3ce349",
+      "device": "phone-9x16",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/fr/story.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_6d079fe70ba9",
+      "sha256": "b548691008e7b8bcbb1930c8ccdfa58c75ee818543362777cdb807a049fb433e",
+      "device": "phone-9x16",
+      "locale": "fr"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hant/gameplay.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_a7a478cefd1e",
+      "sha256": "f5d777ed26cc26d3fbe4a5e36352bba9a601e589d34910513546029e736e7a08",
+      "device": "phone-9x16",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hant/draft.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_81d3d5bd3962",
+      "sha256": "99fa8f2c022890571040895ff2920ff30e22c572920b4b25e13880b7966ae157",
+      "device": "phone-9x16",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hant/shockwave.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_51f79f0c63dc",
+      "sha256": "d5580f6eba67b596859b942d1ed5fe0e9b3894b4e0366c75cfbdec13137e359a",
+      "device": "phone-9x16",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hant/yanfan.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_80e13c12c17743eeae803a7fd5b5b2bb",
+      "sha256": "8a1856b7fd2ed6ffbbd606fe4bb6033c400c7ed80f75b2643ad932cb32a16084",
+      "device": "phone-9x16",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hant/score-ranking.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_9f8bbe00df56",
+      "sha256": "6647b7e998ee61009a32d0a8b9e67a05f867f9bf90439150441110cff490dfcc",
+      "device": "phone-9x16",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hant/loadout.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_334ab21db88c",
+      "sha256": "bf545f2519f7f0636372c20cd72f518dfb7d6227814424943b33d29826d6e344",
+      "device": "phone-9x16",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hant/builder.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_dd7cff33b424",
+      "sha256": "c617c681bac45183f1bc9e40975bf4fdd666b41c2d78c7f68d15299bc8e2d3ad",
+      "device": "phone-9x16",
+      "locale": "zh-Hant"
+    },
+    {
+      "path": "marketing-assets/screenshots/android-phone/zh-Hant/story.png",
+      "release_id": 5,
+      "revision": 98,
+      "artifact_id": "asset_3ae0a063dfd5",
+      "sha256": "7de2b6f42a18562fd71484b6f4e80a3eb4bb3f61a5d195e9cf7460e7e0cb172b",
+      "device": "phone-9x16",
+      "locale": "zh-Hant"
+    }
+  ],
+  "store_links": {
+    "ios": "https://apps.apple.com/us/app/bird-dash-rogue-sky/id6765617436",
+    "android": "https://play.google.com/store/apps/details?id=com.yatosatoshi.birddash"
+  }
+}
