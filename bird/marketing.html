@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0759c7">
-  <meta name="description" content="One-tap roguelite flight, Parry, Deep Space stories and global leaderboards.">
+  <meta name="description" content="Tap to fly, draft your abilities and dive into Deep Space. Dodge the tide, read the boss’s attacks and time a Parry to strike back.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Bird Dash: Rogue Sky">
-  <meta property="og:description" content="One-tap roguelite flight, Parry, Deep Space stories and global leaderboards.">
+  <meta property="og:description" content="Tap to fly, draft your abilities and dive into Deep Space. Dodge the tide, read the boss’s attacks and time a Parry to strike back.">
   <meta property="og:url" content="https://ccaiassistant-coder.github.io/GameStaticRepo/bird/marketing.html">
-  <meta property="og:image" content="https://ccaiassistant-coder.github.io/GameStaticRepo/bird/marketing-assets/icon-1024.png?v=2.0.0">
+  <meta property="og:image" content="https://ccaiassistant-coder.github.io/GameStaticRepo/bird/marketing-assets/icon-1024.png?v=2.1.0">
   <link rel="canonical" href="https://ccaiassistant-coder.github.io/GameStaticRepo/bird/marketing.html">
   <meta name="twitter:card" content="summary_large_image">
   <title>Bird Dash: Rogue Sky — One-Tap Action Roguelite</title>
-  <link rel="icon" type="image/png" href="marketing-assets/icon-1024.png?v=2.0.0">
+  <link rel="icon" type="image/png" href="marketing-assets/icon-1024.png?v=2.1.0">
   <style>
     :root {
       color-scheme: light;
@@ -659,6 +659,14 @@
     .cta img { margin-inline: auto; }
       .footer { align-items: flex-start; flex-direction: column; }
     }
+    .trailer-button, .trailer-dialog button {
+      border: 1px solid var(--line); border-radius: 12px; padding: 10px 16px;
+      font: inherit; font-weight: 800; color: #0759c7; background: white; cursor: pointer;
+    }
+    .trailer-dialog { padding: 12px; border: 0; border-radius: 18px; max-width: 94vw; }
+    .trailer-dialog::backdrop { background: rgba(8, 37, 77, .78); }
+    .trailer-dialog button { display: block; margin: 0 0 8px auto; }
+    .trailer-dialog video { display: block; max-width: 80vw; max-height: 72vh; aspect-ratio: 9 / 16; background: #101820; }
   </style>
   <script type="application/ld+json">
     {
@@ -666,11 +674,11 @@
       "@type": "MobileApplication",
       "name": "Bird Dash: Rogue Sky",
       "operatingSystem": "iOS, Android",
-      "softwareVersion": "2.0.0",
+      "softwareVersion": "2.1.0",
       "applicationCategory": "GameApplication",
       "description": "A portrait, one-thumb action roguelite with Parry timing, build choices, and a Level Builder.",
       "downloadUrl": ["https://apps.apple.com/us/app/bird-dash-rogue-sky/id6765617436", "https://play.google.com/store/apps/details?id=com.yatosatoshi.birddash"],
-      "image": "https://ccaiassistant-coder.github.io/GameStaticRepo/bird/marketing-assets/icon-1024.png?v=2.0.0"
+      "image": "https://ccaiassistant-coder.github.io/GameStaticRepo/bird/marketing-assets/icon-1024.png?v=2.1.0"
     }
   </script>
 </head>
@@ -679,7 +687,7 @@
 
   <header class="site-header shell">
     <a class="brand" href="#top" aria-label="Bird Dash: Rogue Sky home">
-      <img src="marketing-assets/icon-1024.png?v=2.0.0" alt="" width="46" height="46">
+      <img src="marketing-assets/icon-1024.png?v=2.1.0" alt="" width="46" height="46">
       <span>Bird Dash: Rogue Sky</span>
     </a>
     <div class="header-tools">
@@ -707,9 +715,9 @@
   <main id="main">
     <section class="hero shell" id="top">
       <div>
-        <p class="eyebrow" data-i18n="eyebrow">2.0.0 · Available now</p>
+        <p class="eyebrow" data-i18n="eyebrow">2.1.0 · Available now</p>
         <h1><span class="hero-title-main" data-i18n="hero_title_main">Tap. Build.</span><span data-i18n="hero_title_accent">Rule the sky.</span></h1>
-        <p class="hero-copy" data-i18n="hero_copy">2.0: One-tap flight, Parry and roguelite builds. Clear Standard Mode to unlock Deep Space's new story. Aim for SSS and climb the global leaderboards.</p>
+        <p class="hero-copy" data-i18n="hero_copy">Tap to fly, draft your abilities and dive into Deep Space. Dodge the tide, read the boss’s attacks and time a Parry to strike back.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="https://apps.apple.com/us/app/bird-dash-rogue-sky/id6765617436" rel="noopener" data-i18n="view_store">View on the App Store ↗</a>
           <a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.yatosatoshi.birddash" rel="noopener" data-i18n="view_play">Google Play ↗</a>
@@ -725,7 +733,7 @@
         <span class="hero-orbit" aria-hidden="true"></span>
         <span class="pixel pixel-one" aria-hidden="true"></span>
         <span class="pixel pixel-two" aria-hidden="true"></span>
-        <img class="hero-icon" src="marketing-assets/icon-1024.png?v=2.0.0" alt="A pixel-art yellow bird soaring through a bright blue sky" width="1024" height="1024" data-i18n-alt="icon_alt">
+        <img class="hero-icon" src="marketing-assets/icon-1024.png?v=2.1.0" alt="A pixel-art yellow bird soaring through a bright blue sky" width="1024" height="1024" data-i18n-alt="icon_alt">
       </div>
     </section>
 
@@ -758,17 +766,18 @@
             <button type="button" data-device="ipad-13" aria-pressed="false">iPad</button>
             <button type="button" data-device="android-phone" aria-pressed="false">Android</button>
           </div>
+          <button class="trailer-button" id="watch-video" type="button" data-i18n="watch">Watch trailer · 32s</button>
         </div>
 
         <div class="gallery" aria-label="Bird Dash gameplay screenshots">
-          <figure class="shot"><img data-scene="gameplay" data-i18n-alt="alt_gameplay" src="marketing-assets/screenshots/6.7-iphone/en-US/gameplay.png?v=2.0.0" alt="Bird Dash gameplay" width="1284" height="2778" loading="lazy"></figure>
-          <figure class="shot"><img data-scene="draft" data-i18n-alt="alt_draft" src="marketing-assets/screenshots/6.7-iphone/en-US/draft.png?v=2.0.0" alt="Choose one of three abilities" width="1284" height="2778" loading="lazy"></figure>
-          <figure class="shot"><img data-scene="shockwave" data-i18n-alt="alt_shockwave" src="marketing-assets/screenshots/6.7-iphone/en-US/shockwave.png?v=2.0.0" alt="Shockwave clears hazards" width="1284" height="2778" loading="lazy"></figure>
-          <figure class="shot"><img data-scene="yanfan" data-i18n-alt="alt_yanfan" src="marketing-assets/screenshots/6.7-iphone/en-US/yanfan.png?v=2.0.0" alt="Parry Dash through an obstacle" width="1284" height="2778" loading="lazy"></figure>
-          <figure class="shot"><img data-scene="score-ranking" data-i18n-alt="alt_score-ranking" src="marketing-assets/screenshots/6.7-iphone/en-US/score-ranking.png?v=2.0.0" alt="Scores and global leaderboards" width="1284" height="2778" loading="lazy"></figure>
-          <figure class="shot"><img data-scene="loadout" data-i18n-alt="alt_loadout" src="marketing-assets/screenshots/6.7-iphone/en-US/loadout.png?v=2.0.0" alt="Loadout and permanent progression" width="1284" height="2778" loading="lazy"></figure>
-          <figure class="shot"><img data-scene="builder" data-i18n-alt="alt_builder" src="marketing-assets/screenshots/6.7-iphone/en-US/builder.png?v=2.0.0" alt="Level Builder" width="1284" height="2778" loading="lazy"></figure>
-          <figure class="shot"><img data-scene="story" data-i18n-alt="alt_story" src="marketing-assets/screenshots/6.7-iphone/en-US/story.png?v=2.0.0" alt="Story scenes and Deep Space" width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="01-gameplay" data-i18n-alt="alt_gameplay" src="marketing-assets/2.1.0/screenshots/6.7-iphone/en-US/01-gameplay.webp" alt="Bird Dash gameplay" width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="02-yanfan" data-i18n-alt="alt_yanfan" src="marketing-assets/2.1.0/screenshots/6.7-iphone/en-US/02-yanfan.webp" alt="Parry Dash through an obstacle" width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="03-build" data-i18n-alt="alt_draft" src="marketing-assets/2.1.0/screenshots/6.7-iphone/en-US/03-build.webp" alt="Choose one of three abilities" width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="04-buff" data-i18n-alt="alt_buff" src="marketing-assets/2.1.0/screenshots/6.7-iphone/en-US/04-buff.webp" alt="Powerful Buffs. Big comebacks." width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="05-deep" data-i18n-alt="alt_deep" src="marketing-assets/2.1.0/screenshots/6.7-iphone/en-US/05-deep.webp" alt="Into Deep Space. Beyond flight." width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="06-ranking" data-i18n-alt="alt_score-ranking" src="marketing-assets/2.1.0/screenshots/6.7-iphone/en-US/06-ranking.webp" alt="Scores and global leaderboards" width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="07-builder" data-i18n-alt="alt_builder" src="marketing-assets/2.1.0/screenshots/6.7-iphone/en-US/07-builder.webp" alt="Level Builder" width="1284" height="2778" loading="lazy"></figure>
+          <figure class="shot"><img data-scene="08-story" data-i18n-alt="alt_story" src="marketing-assets/2.1.0/screenshots/6.7-iphone/en-US/08-story.webp" alt="Story scenes and Deep Space" width="1284" height="2778" loading="lazy"></figure>
         </div>
       </section>
 
@@ -781,7 +790,7 @@
         <article class="feature-card">
           <span class="feature-number">02</span>
           <h3 data-i18n="feature2_title">Build every run</h3>
-          <p data-i18n="feature2_body">Magnet, Shield, Time Slow, Swift Step, Dawn Iris, and more reshape your route and recovery plan.</p>
+          <p data-i18n="feature2_body">From sweeping blasts to stopping time More powerful Buffs. More ways to build.</p>
         </article>
         <article class="feature-card">
           <span class="feature-number">03</span>
@@ -791,7 +800,7 @@
         <article class="feature-card">
           <span class="feature-number">04</span>
           <h3 data-i18n="feature4_title">Deep Space awaits</h3>
-          <p data-i18n="feature4_body">Clear Standard Mode to unlock Deep Space, with tougher mechanism combinations and a new story. Take your familiar flying skills into the challenges beyond.</p>
+          <p data-i18n="feature4_body">Choose challenges · Brave mutations · Outrun the tide · Face the boss</p>
         </article>
         <article class="feature-card">
           <span class="feature-number">05</span>
@@ -806,7 +815,7 @@
       </section>
 
       <section class="cta shell" aria-labelledby="cta-title">
-        <img src="marketing-assets/icon-1024.png?v=2.0.0" alt="" width="92" height="92" loading="lazy">
+        <img src="marketing-assets/icon-1024.png?v=2.1.0" alt="" width="92" height="92" loading="lazy">
         <div>
           <h2 id="cta-title" data-i18n="cta_title">This sky is worth another run.</h2>
           <p data-i18n="cta_body">Portrait. One thumb. A different plan from the very first tap.</p>
@@ -827,20 +836,32 @@
       <a href="mailto:birddashroguesky@gmail.com" data-i18n="contact">Contact</a>
     </nav>
   </footer>
+  <dialog class="trailer-dialog" id="trailer" aria-labelledby="watch-video">
+    <button type="button" id="close-trailer" data-i18n="close_video">Close</button>
+    <video controls playsinline preload="none" src="marketing-assets/2.1.0/trailer.mp4">
+        <track kind="captions" srclang="en-US" label="English" src="marketing-assets/2.1.0/captions/en-US.vtt">
+        <track kind="captions" srclang="zh-Hans" label="简体中文" src="marketing-assets/2.1.0/captions/zh-Hans.vtt">
+        <track kind="captions" srclang="zh-Hant" label="繁體中文" src="marketing-assets/2.1.0/captions/zh-Hant.vtt">
+        <track kind="captions" srclang="ja" label="日本語" src="marketing-assets/2.1.0/captions/ja.vtt">
+        <track kind="captions" srclang="ko" label="한국어" src="marketing-assets/2.1.0/captions/ko.vtt">
+        <track kind="captions" srclang="de" label="Deutsch" src="marketing-assets/2.1.0/captions/de.vtt">
+        <track kind="captions" srclang="fr" label="Français" src="marketing-assets/2.1.0/captions/fr.vtt">
+    </video>
+  </dialog>
   <script>
     const translations = {
   "en-US": {
     "title": "Bird Dash: Rogue Sky — One-Tap Action Roguelite",
-    "description": "One-tap roguelite flight, Parry, Deep Space stories and global leaderboards.",
+    "description": "Tap to fly, draft your abilities and dive into Deep Space. Dodge the tide, read the boss’s attacks and time a Parry to strike back.",
     "skip": "Skip to content",
     "language_label": "Language",
     "nav_features": "Features",
     "nav_screenshots": "Screenshots",
     "nav_store": "App Store ↗",
-    "eyebrow": "2.0.0 · Available now",
+    "eyebrow": "2.1.0 · Available now",
     "hero_title_main": "Tap. Build.",
     "hero_title_accent": "Rule the sky.",
-    "hero_copy": "2.0: One-tap flight, Parry and roguelite builds. Clear Standard Mode to unlock Deep Space's new story. Aim for SSS and climb the global leaderboards.",
+    "hero_copy": "Tap to fly, draft your abilities and dive into Deep Space. Dodge the tide, read the boss’s attacks and time a Parry to strike back.",
     "view_store": "View on the App Store ↗",
     "see_game": "See the game",
     "meta_devices": "iPhone · iPad · Android",
@@ -864,7 +885,7 @@
     "feature1_title": "Clutch Parry saves",
     "feature1_body": "Read the distance, time the second tap, and turn a near-death collision into a clean passage.",
     "feature2_title": "Build every run",
-    "feature2_body": "Magnet, Shield, Time Slow, Swift Step, Dawn Iris, and more reshape your route and recovery plan.",
+    "feature2_body": "From sweeping blasts to stopping time More powerful Buffs. More ways to build.",
     "feature3_title": "Create the challenge",
     "feature3_body": "Drag obstacles, tune mechanisms, test instantly, then share a challenge code with friends.",
     "cta_title": "This sky is worth another run.",
@@ -881,22 +902,26 @@
     "feature6_title": "Prepare your next flight",
     "view_play": "Google Play ↗",
     "open_play": "Google Play ↗",
-    "feature4_body": "Clear Standard Mode to unlock Deep Space, with tougher mechanism combinations and a new story. Take your familiar flying skills into the challenges beyond.",
+    "feature4_body": "Choose challenges · Brave mutations · Outrun the tide · Face the boss",
     "feature5_body": "Track your personal bests and compare your flying prowess with other players on the global leaderboards for Standard Mode and Deep Space.",
-    "feature6_body": "Collect Blue Feathers on your adventures to unlock abilities and loadout slots. Set up your starting ability and influence the ability choices at designated stages. Adapt during a run and plan before takeoff, carrying your progress into future challenges."
+    "feature6_body": "Collect Blue Feathers on your adventures to unlock abilities and loadout slots. Set up your starting ability and influence the ability choices at designated stages. Adapt during a run and plan before takeoff, carrying your progress into future challenges.",
+    "watch": "Watch trailer · 32s",
+    "close_video": "Close",
+    "alt_buff": "Powerful Buffs. Big comebacks.",
+    "alt_deep": "Into Deep Space. Beyond flight."
   },
   "zh-Hans": {
     "title": "Bird Dash: Rogue Sky — 单指动作 Roguelite",
-    "description": "一键飞行，燕返破局，搭配能力打造肉鸽流派。通关标准模式，解锁深空新剧情，挑战全球排行榜。",
+    "description": "轻点起飞，三选一搭配能力。飞进深空，甩开影潮，抓准首领出招的瞬间燕返回击。",
     "skip": "跳到主要内容",
     "language_label": "语言",
     "nav_features": "玩法",
     "nav_screenshots": "游戏截图",
     "nav_store": "App Store ↗",
-    "eyebrow": "2.0.0 · 现已上线",
+    "eyebrow": "2.1.0 · 现已上线",
     "hero_title_main": "点击。构筑。",
     "hero_title_accent": "制霸天空。",
-    "hero_copy": "2.0，再次起飞！一键振翅，险境燕返，搭配能力打造你的肉鸽流派。通关标准模式，解锁深空新剧情；挑战 SSS 评级，冲击全球排行榜。",
+    "hero_copy": "轻点起飞，三选一搭配能力。飞进深空，甩开影潮，抓准首领出招的瞬间燕返回击。",
     "view_store": "前往 App Store ↗",
     "see_game": "查看游戏",
     "meta_devices": "iPhone · iPad · Android",
@@ -920,7 +945,7 @@
     "feature1_title": "极限招架救场",
     "feature1_body": "判断距离，抓准二次点击时机，把致命碰撞化为安全穿越。",
     "feature2_title": "每局重新构筑",
-    "feature2_body": "磁力、护盾、时缓、疾步、曙光之瞳等能力持续改变路线与生存策略。",
+    "feature2_body": "从冲击清场到凝住时间 更多强力 Buff，等你搭出自己的解法",
     "feature3_title": "亲手制作挑战",
     "feature3_body": "拖放障碍、调整机制、即时测试，再把挑战码分享给好友。",
     "cta_title": "这片天空，值得再飞一局。",
@@ -937,22 +962,26 @@
     "feature6_title": "为下次起飞做好准备",
     "view_play": "Google Play ↗",
     "open_play": "Google Play ↗",
-    "feature4_body": "通关后解锁深空模式，迎接更具挑战的机关组合与新的剧情。从熟悉的飞行节奏出发，探索天空更深处的考验。",
+    "feature4_body": "选择挑战 · 突破异变 · 甩开影潮 · 迎战首领",
     "feature5_body": "查看自己的最佳记录，在标准与深空模式的全球排行榜上，与其他玩家比一比谁能飞得更出色。",
-    "feature6_body": "在冒险中积累蓝色羽毛，逐步解锁能力与装填位置，配置出生能力和指定关卡的能力选择。既能在局内随机应变，也能在出发前规划构筑，让一次次挑战留下成长。"
+    "feature6_body": "在冒险中积累蓝色羽毛，逐步解锁能力与装填位置，配置出生能力和指定关卡的能力选择。既能在局内随机应变，也能在出发前规划构筑，让一次次挑战留下成长。",
+    "watch": "看实机预告 · 32 秒",
+    "close_video": "关闭",
+    "alt_buff": "强力 Buff， 绝境也能翻盘",
+    "alt_deep": "深入深空， 挑战远不止飞行"
   },
   "zh-Hant": {
     "title": "Bird Dash: Rogue Sky — 單指動作 Roguelite",
-    "description": "一鍵飛行，燕返破局，搭配能力打造肉鴿流派。通關標準模式，解鎖深空新劇情，挑戰全球排行榜。",
+    "description": "輕點起飛，三選一搭配能力。飛進深空，甩開影潮，抓準首領出招的瞬間燕返回擊。",
     "skip": "跳到主要內容",
     "language_label": "語言",
     "nav_features": "玩法",
     "nav_screenshots": "遊戲截圖",
     "nav_store": "App Store ↗",
-    "eyebrow": "2.0.0 · 現已上線",
+    "eyebrow": "2.1.0 · 現已上線",
     "hero_title_main": "點擊。構築。",
     "hero_title_accent": "制霸天空。",
-    "hero_copy": "2.0，再次起飛！一鍵振翅，險境燕返，搭配能力打造你的肉鴿流派。通關標準模式，解鎖深空新劇情；挑戰 SSS 評級，衝擊全球排行榜。",
+    "hero_copy": "輕點起飛，三選一搭配能力。飛進深空，甩開影潮，抓準首領出招的瞬間燕返回擊。",
     "view_store": "前往 App Store ↗",
     "see_game": "查看遊戲",
     "meta_devices": "iPhone · iPad · Android",
@@ -976,7 +1005,7 @@
     "feature1_title": "極限招架救場",
     "feature1_body": "判斷距離，抓準二次點擊時機，把致命碰撞化為安全穿越。",
     "feature2_title": "每局重新構築",
-    "feature2_body": "磁力、護盾、時緩、疾步、曙光之瞳等能力持續改變路線與生存策略。",
+    "feature2_body": "從衝擊清場到凝住時間 更多強力 Buff，等你搭出自己的解法",
     "feature3_title": "親手製作挑戰",
     "feature3_body": "拖放障礙、調整機制、即時測試，再把挑戰碼分享給好友。",
     "cta_title": "這片天空，值得再飛一局。",
@@ -993,22 +1022,26 @@
     "feature6_title": "為下次起飛做好準備",
     "view_play": "Google Play ↗",
     "open_play": "Google Play ↗",
-    "feature4_body": "通關後解鎖深空模式，迎接更具挑戰的機關組合與新的劇情。從熟悉的飛行節奏出發，探索天空更深處的考驗。",
+    "feature4_body": "選擇挑戰 · 突破異變 · 甩開影潮 · 迎戰首領",
     "feature5_body": "查看自己的最佳紀錄，在標準與深空模式的全球排行榜上，與其他玩家比一比誰能飛得更出色。",
-    "feature6_body": "在冒險中累積藍色羽毛，逐步解鎖能力與填裝位置，配置出生能力和指定關卡的能力選擇。既能在局內隨機應變，也能在出發前規劃構築，讓一次次挑戰留下成長。"
+    "feature6_body": "在冒險中累積藍色羽毛，逐步解鎖能力與填裝位置，配置出生能力和指定關卡的能力選擇。既能在局內隨機應變，也能在出發前規劃構築，讓一次次挑戰留下成長。",
+    "watch": "觀看實機預告 · 32 秒",
+    "close_video": "關閉",
+    "alt_buff": "強力 Buff， 絕境也能翻盤",
+    "alt_deep": "深入深空， 挑戰遠不止飛行"
   },
   "ja": {
     "title": "Bird Dash: Rogue Sky — ワンタップ・アクションローグライト",
-    "description": "ワンタップ飛行×燕返×ローグライト。能力を組み合わせ、スタンダードモードをクリアして深宇宙の新たな物語へ。世界ランキングにも挑戦！",
+    "description": "タップで飛び、3つの候補から能力を選ぼう。深宇宙で迫る潮をかわし、ボスの攻撃を読んでパリィで反撃。",
     "skip": "メインコンテンツへ",
     "language_label": "言語",
     "nav_features": "特徴",
     "nav_screenshots": "スクリーンショット",
     "nav_store": "App Store ↗",
-    "eyebrow": "2.0.0 · 配信中",
+    "eyebrow": "2.1.0 · 配信中",
     "hero_title_main": "タップ。ビルド。",
     "hero_title_accent": "空を制覇。",
-    "hero_copy": "2.0で、もう一度空へ！ワンタップで飛び、燕返と能力の組み合わせで切り抜けるローグライト。スタンダードモードをクリアして、深宇宙の新たな物語へ。SSS評価と世界ランキングの上位を目指そう！",
+    "hero_copy": "タップで飛び、3つの候補から能力を選ぼう。深宇宙で迫る潮をかわし、ボスの攻撃を読んでパリィで反撃。",
     "view_store": "App Storeで見る ↗",
     "see_game": "ゲームを見る",
     "meta_devices": "iPhone · iPad · Android",
@@ -1032,7 +1065,7 @@
     "feature1_title": "逆転のパリィ",
     "feature1_body": "距離を読み、2回目のタップを合わせ、死寸前の衝突を鮮やかな突破に変えよう。",
     "feature2_title": "毎回ビルド",
-    "feature2_body": "マグネット、シールド、スロー、迅速、暁の瞳などがルートと生存プランを変化させます。",
+    "feature2_body": "一掃する衝撃から、時間停止まで 多彩なバフで、自分だけの突破法を",
     "feature3_title": "挑戦を作る",
     "feature3_body": "障害物を配置し、仕掛けを調整し、すぐテスト。挑戦コードを友達に共有できます。",
     "cta_title": "この空は、もう一度飛ぶ価値がある。",
@@ -1049,22 +1082,26 @@
     "feature6_title": "次の飛行に備えよう",
     "view_play": "Google Play ↗",
     "open_play": "Google Play ↗",
-    "feature4_body": "スタンダードモードをクリアすると深宇宙が解放され、より手ごわい仕掛けの組み合わせと新たな物語が待っています。身につけた飛行のリズムを頼りに、さらに奥の空へ挑みましょう。",
+    "feature4_body": "試練を選ぶ · 変異を越える · 影の潮を振り切る · ボスに挑む",
     "feature5_body": "自己ベストを確かめながら、スタンダードモードと深宇宙の世界ランキングで、ほかのプレイヤーと飛行の腕を競えます。",
-    "feature6_body": "冒険でブルーフェザーを集め、能力や装備枠を少しずつ解放。開始時の能力や、指定ステージで登場する能力候補を準備できます。道中で臨機応変に対応しながら、出発前にはビルドを計画。一度一度の挑戦が、次の旅への成長につながります。"
+    "feature6_body": "冒険でブルーフェザーを集め、能力や装備枠を少しずつ解放。開始時の能力や、指定ステージで登場する能力候補を準備できます。道中で臨機応変に対応しながら、出発前にはビルドを計画。一度一度の挑戦が、次の旅への成長につながります。",
+    "watch": "実機映像を見る · 32秒",
+    "close_video": "閉じる",
+    "alt_buff": "強力なバフで、 絶体絶命から逆転",
+    "alt_deep": "深宇宙へ。 飛ぶだけでは終わらない"
   },
   "ko": {
     "title": "Bird Dash: Rogue Sky — 원터치 액션 로그라이트",
-    "description": "원터치 비행과 패링, 능력 조합으로 즐기는 로그라이트. 스탠다드 모드를 클리어하고 심우주의 새 이야기와 세계 랭킹에 도전하세요!",
+    "description": "탭해서 날고 세 가지 능력 중 하나를 골라 보세요. 심우주에서 밀려오는 파도를 피하고 보스의 공격을 읽어 패링으로 반격하세요.",
     "skip": "본문으로 이동",
     "language_label": "언어",
     "nav_features": "특징",
     "nav_screenshots": "스크린샷",
     "nav_store": "App Store ↗",
-    "eyebrow": "2.0.0 · 지금 출시",
+    "eyebrow": "2.1.0 · 지금 출시",
     "hero_title_main": "탭. 빌드.",
     "hero_title_accent": "하늘을 지배하라.",
-    "hero_copy": "2.0, 다시 날아오르세요! 원터치 비행과 패링, 능력 조합으로 즐기는 로그라이트. 스탠다드 모드를 클리어하고 심우주의 새 이야기를 여세요. SSS 등급과 세계 랭킹 상위권에 도전하세요!",
+    "hero_copy": "탭해서 날고 세 가지 능력 중 하나를 골라 보세요. 심우주에서 밀려오는 파도를 피하고 보스의 공격을 읽어 패링으로 반격하세요.",
     "view_store": "App Store에서 보기 ↗",
     "see_game": "게임 보기",
     "meta_devices": "iPhone · iPad · Android",
@@ -1088,7 +1125,7 @@
     "feature1_title": "위기의 패리",
     "feature1_body": "거리를 읽고 두 번째 탭의 타이밍을 맞춰 치명적인 충돌을 깔끔한 통과로 바꾸세요.",
     "feature2_title": "매번 새로운 빌드",
-    "feature2_body": "자석, 방패, 시간 감속, 질주, 새벽의 눈동자 등이 경로와 생존 계획을 바꿉니다.",
+    "feature2_body": "충격파로 쓸어내리고 시간을 멈추고 다양한 강력한 버프로 나만의 해법을",
     "feature3_title": "도전을 직접 제작",
     "feature3_body": "장애물을 배치하고 기믹을 조정한 뒤 즉시 테스트하고 친구에게 도전 코드를 공유하세요.",
     "cta_title": "이 하늘은 한 번 더 날 가치가 있습니다.",
@@ -1105,22 +1142,26 @@
     "feature6_title": "다음 비행을 준비하세요",
     "view_play": "Google Play ↗",
     "open_play": "Google Play ↗",
-    "feature4_body": "스탠다드 모드를 클리어하면 심우주가 열립니다. 더 까다로운 장치 조합과 새로운 이야기가 기다리고 있습니다. 익숙해진 비행 리듬을 바탕으로 하늘 깊은 곳의 도전에 나서 보세요.",
+    "feature4_body": "도전 선택 · 변이 돌파 · 그림자 물결 탈출 · 보스 대결",
     "feature5_body": "자신의 최고 기록을 확인하고, 스탠다드 모드와 심우주의 글로벌 순위표에서 다른 플레이어와 비행 실력을 겨뤄 보세요.",
-    "feature6_body": "모험에서 파란 깃털을 모아 능력과 장착 슬롯을 차근차근 해제하세요. 시작 능력과 지정된 스테이지에서 등장할 능력 후보를 준비할 수 있습니다. 비행 중에는 상황에 맞춰 대응하고, 출발 전에는 빌드를 계획하며 도전의 성과를 다음 여정으로 이어 가세요."
+    "feature6_body": "모험에서 파란 깃털을 모아 능력과 장착 슬롯을 차근차근 해제하세요. 시작 능력과 지정된 스테이지에서 등장할 능력 후보를 준비할 수 있습니다. 비행 중에는 상황에 맞춰 대응하고, 출발 전에는 빌드를 계획하며 도전의 성과를 다음 여정으로 이어 가세요.",
+    "watch": "플레이 영상 · 32초",
+    "close_video": "닫기",
+    "alt_buff": "강력한 버프로, 절체절명도 역전",
+    "alt_deep": "심우주로, 비행 너머의 도전"
   },
   "de": {
     "title": "Bird Dash: Rogue Sky — Einfinger-Action-Roguelite",
-    "description": "One-Tap-Flug, Paraden, Roguelite-Builds, Tiefenraum-Story und Weltrangliste.",
+    "description": "Fliege per Fingertipp und wähle aus drei Fähigkeiten. Entkomme der Flut im Deep Space und pariere im richtigen Moment, um den Boss zu treffen.",
     "skip": "Zum Inhalt springen",
     "language_label": "Sprache",
     "nav_features": "Features",
     "nav_screenshots": "Screenshots",
     "nav_store": "App Store ↗",
-    "eyebrow": "2.0.0 · Jetzt verfügbar",
+    "eyebrow": "2.1.0 · Jetzt verfügbar",
     "hero_title_main": "Tippen. Bauen.",
     "hero_title_accent": "Den Himmel beherrschen.",
-    "hero_copy": "2.0: One-Tap-Flug, Paraden, Roguelite-Builds! Meistere den Standardmodus und schalte die neue Tiefenraum-Story frei. Hol dir SSS und erklimme die Weltrangliste!",
+    "hero_copy": "Fliege per Fingertipp und wähle aus drei Fähigkeiten. Entkomme der Flut im Deep Space und pariere im richtigen Moment, um den Boss zu treffen.",
     "view_store": "Im App Store ansehen ↗",
     "see_game": "Spiel ansehen",
     "meta_devices": "iPhone · iPad · Android",
@@ -1144,7 +1185,7 @@
     "feature1_title": "Rettende Paraden",
     "feature1_body": "Lies die Distanz, time den zweiten Tipp und verwandle eine tödliche Kollision in eine saubere Passage.",
     "feature2_title": "Jeden Lauf neu bauen",
-    "feature2_body": "Magnet, Schild, Zeitlupe, Schnellschritt, Morgeniris und mehr verändern Route und Rettungsplan.",
+    "feature2_body": "Von gewaltigen Wellen bis zum Zeitstopp Mehr starke Buffs. Mehr eigene Lösungen.",
     "feature3_title": "Die Herausforderung bauen",
     "feature3_body": "Ziehe Hindernisse, justiere Mechaniken, teste sofort und teile einen Herausforderungscode mit Freunden.",
     "cta_title": "Dieser Himmel ist einen weiteren Lauf wert.",
@@ -1161,22 +1202,26 @@
     "feature6_title": "Bereite den nächsten Flug vor",
     "view_play": "Google Play ↗",
     "open_play": "Google Play ↗",
-    "feature4_body": "Schließe den Standardmodus ab, um den Tiefenraum freizuschalten. Dort warten anspruchsvollere Mechanismenkombinationen und eine neue Geschichte. Stell deinen vertrauten Flugrhythmus auf die Probe und wage dich weiter hinaus.",
+    "feature4_body": "Herausforderungen wählen · Mutationen · Schattenflut · Bosskampf",
     "feature5_body": "Verfolge deine Bestleistungen und miss dich auf den weltweiten Ranglisten für Standardmodus und Tiefenraum mit anderen Spielern.",
-    "feature6_body": "Sammle Blaue Federn und schalte nach und nach Fähigkeiten und Ausrüstungsplätze frei. Plane deine Startfähigkeit und die Fähigkeitsauswahl an bestimmten Abschnitten. Reagiere unterwegs auf die Situation und bereite deinen Build vor dem Start vor: So bleibt aus jeder Herausforderung Fortschritt für die nächste Reise."
+    "feature6_body": "Sammle Blaue Federn und schalte nach und nach Fähigkeiten und Ausrüstungsplätze frei. Plane deine Startfähigkeit und die Fähigkeitsauswahl an bestimmten Abschnitten. Reagiere unterwegs auf die Situation und bereite deinen Build vor dem Start vor: So bleibt aus jeder Herausforderung Fortschritt für die nächste Reise.",
+    "watch": "Gameplay ansehen · 32 s",
+    "close_video": "Schließen",
+    "alt_buff": "Starke Buffs. Große Comebacks.",
+    "alt_deep": "In den Tiefenraum. Mehr als nur Fliegen."
   },
   "fr": {
     "title": "Bird Dash: Rogue Sky — Roguelite d’action à un doigt",
-    "description": "Vol à un toucher, parades, roguelite, Espace profond et classement mondial.",
+    "description": "Touchez pour voler et choisissez une capacité parmi trois. Dans l’espace lointain, échappez à la marée et parez au bon moment pour contre-attaquer face au boss.",
     "skip": "Aller au contenu",
     "language_label": "Langue",
     "nav_features": "Fonctionnalités",
     "nav_screenshots": "Captures",
     "nav_store": "App Store ↗",
-    "eyebrow": "2.0.0 · Disponible",
+    "eyebrow": "2.1.0 · Disponible",
     "hero_title_main": "Touchez. Construisez.",
     "hero_title_accent": "Dominez le ciel.",
-    "hero_copy": "2.0 : vol à un toucher, parades et builds roguelite ! Terminez le Mode standard pour découvrir l’Espace profond et son nouveau récit. Visez SSS au classement mondial.",
+    "hero_copy": "Touchez pour voler et choisissez une capacité parmi trois. Dans l’espace lointain, échappez à la marée et parez au bon moment pour contre-attaquer face au boss.",
     "view_store": "Voir sur l’App Store ↗",
     "see_game": "Voir le jeu",
     "meta_devices": "iPhone · iPad · Android",
@@ -1200,7 +1245,7 @@
     "feature1_title": "Parades décisives",
     "feature1_body": "Lisez la distance, synchronisez le second toucher et transformez une collision fatale en passage net.",
     "feature2_title": "Un build à chaque partie",
-    "feature2_body": "Aimant, Bouclier, Ralenti, Pas vif, Iris de l’aube et bien d’autres modifient votre route et votre survie.",
+    "feature2_body": "Des ondes dévastatrices à l’arrêt du temps Plus de buffs, plus de façons de s’en sortir.",
     "feature3_title": "Créez le défi",
     "feature3_body": "Déplacez les obstacles, réglez les mécanismes, testez immédiatement, puis partagez un code avec vos amis.",
     "cta_title": "Ce ciel mérite une partie de plus.",
@@ -1217,9 +1262,13 @@
     "feature6_title": "Préparez votre prochain vol",
     "view_play": "Google Play ↗",
     "open_play": "Google Play ↗",
-    "feature4_body": "Terminez le Mode standard pour débloquer l’Espace profond, avec des combinaisons de mécanismes plus exigeantes et une nouvelle histoire. Mettez votre rythme de vol à l’épreuve et explorez les défis qui vous attendent plus loin dans le ciel.",
+    "feature4_body": "Choisissez vos défis · Bravez les mutations · Fuyez la marée · Affrontez le boss",
     "feature5_body": "Suivez vos records personnels et mesurez votre talent à celui des autres joueurs dans les classements mondiaux du Mode standard et de l’Espace profond.",
-    "feature6_body": "Au fil de vos aventures, récoltez des Plumes Bleues pour débloquer capacités et emplacements d’équipement. Préparez votre capacité de départ et les choix proposés à certaines étapes. Adaptez-vous en vol et planifiez votre build avant de partir : chaque défi contribue à votre progression."
+    "feature6_body": "Au fil de vos aventures, récoltez des Plumes Bleues pour débloquer capacités et emplacements d’équipement. Préparez votre capacité de départ et les choix proposés à certaines étapes. Adaptez-vous en vol et planifiez votre build avant de partir : chaque défi contribue à votre progression.",
+    "watch": "Voir la bande-annonce · 32 s",
+    "close_video": "Fermer",
+    "alt_buff": "Des buffs puissants. Des retours éclatants.",
+    "alt_deep": "L’Espace profond. Bien plus que voler."
   }
 };
 
@@ -1282,7 +1331,7 @@
       const isTablet = currentDevice === "ipad-13";
       const isAndroid = currentDevice === "android-phone";
       document.querySelectorAll("[data-scene]").forEach((image) => {
-        image.src = `marketing-assets/screenshots/${currentDevice}/${currentLocale}/${image.dataset.scene}.png?v=2.0.0`;
+        image.src = `marketing-assets/2.1.0/screenshots/${currentDevice}/${currentLocale}/${image.dataset.scene}.webp`;
         image.width = isTablet ? 2064 : isAndroid ? 1080 : 1284;
         image.height = isTablet ? 2752 : isAndroid ? 1920 : 2778;
       });
@@ -1324,6 +1373,18 @@
         rememberQuery();
       });
     });
+
+    const trailer = document.getElementById("trailer");
+    const trailerVideo = trailer.querySelector("video");
+    document.getElementById("watch-video").addEventListener("click", () => {
+      for (const track of trailerVideo.textTracks) {
+        track.mode = track.language === currentLocale ? "showing" : "disabled";
+      }
+      trailer.showModal();
+      trailerVideo.play().catch(() => trailerVideo.focus());
+    });
+    document.getElementById("close-trailer").addEventListener("click", () => trailer.close());
+    trailer.addEventListener("close", () => trailerVideo.pause());
 
     currentDevice = preferredDevice();
     applyLocale(preferredLocale());
